@@ -10,7 +10,61 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e68a45c4-2aa3-4184-93d0-d8e1af375a70" name="Default" comment="" />
+    <list default="true" id="e68a45c4-2aa3-4184-93d0-d8e1af375a70" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/tabowa/rfid_app/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/tabowa/rfid_app/test/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/tabowa/rfid_app/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/tabowa/rfid_app/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/hellohasan/sqlite_multiple_three_tables_crud/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/tabowa/rfid_app/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/Accounts/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/Accounts/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/Accounts/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/Accounts/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/DatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/QueryContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/QueryContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/QueryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/QueryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/StudentQueryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/StudentQueryImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/SubjectQueryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/SubjectQueryImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/TableRowCountQueryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/TableRowCountQueryImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/TakenSubjectQueryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/TakenSubjectQueryImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/StudentCrudListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/StudentCrudListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_create/StudentCreateDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_create/StudentCreateDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_update/StudentUpdateDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_update/StudentUpdateDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/SubjectCrudListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/SubjectCrudListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_create/SubjectCreateDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_create/SubjectCreateDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_list_show/SubjectListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_list_show/SubjectListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_list_show/SubjectListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_list_show/SubjectListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_list_show/SubjectViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_list_show/SubjectViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_update/SubjectUpdateDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_update/SubjectUpdateDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/TakenSubjectCrudListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/TakenSubjectCrudListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/subject_assign/SubjectAssignActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/subject_assign/SubjectAssignActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/subject_assign/SubjectAssignListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/subject_assign/SubjectAssignListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/subject_assign/SubjectAssignViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/subject_assign/SubjectAssignViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/taken_subject_show/StudentTakenSubjectActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/taken_subject_show/StudentTakenSubjectActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/taken_subject_show/TakenSubjectListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/taken_subject_show/TakenSubjectListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/taken_subject_show/TakenSubjectViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/taken_subject_show/TakenSubjectViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainMenu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainMenu/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/BlankFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/BlankFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/myPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/myPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tab1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tab2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tab2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tab3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tab3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tabsStudentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tabsStudentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mifareReader/MifareActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mifareReader/MifareActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/TableRowCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/TableRowCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/TakenSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/TakenSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/util/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/MyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_student_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_student_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/hellohasan/sqlite_multiple_three_tables_crud/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/tabowa/rfid_app/ExampleUnitTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +90,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainMenu/MainMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -59,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="23" />
               <folding>
                 <element signature="e#1092#1110#0" expanded="true" />
                 <element signature="e#1332#1354#0" expanded="true" />
@@ -69,6 +111,15 @@
             </state>
           </provider>
           <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/tabowa/rfid_app/ExampleInstrumentedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -81,10 +132,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentListActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,7 +144,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/StudentQueryImplementation.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/StudentQueryImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-3347">
               <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
@@ -102,10 +153,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/DatabaseHelper.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/DatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+              <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -114,17 +165,17 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mifare.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/util/Constants.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="150" selection-start-line="150" selection-end-line="150" />
+            <state relative-caret-position="238">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -196,11 +247,12 @@
       <dir>C:\Projects\UwabisFinal\app\src\main\java\com\hellohasan\sqlite_multiple_three_tables_crud</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_create/SubjectCreateDialogFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/Subject.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_update/SubjectUpdateDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/TakenSubject.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/SubjectQueryImplementation.java" />
@@ -250,6 +302,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mifare.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/util/Constants.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/tabowa/sqlite_multiple_three_tables_crud/ExampleInstrumentedTest.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/tabowa/rfid_app/ExampleInstrumentedTest.java" />
       </list>
     </option>
   </component>
@@ -259,6 +313,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -310,7 +365,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlite_multiple_three_tables_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +374,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlite_multiple_three_tables_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,7 +384,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlite_multiple_three_tables_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="student_crud" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -340,7 +395,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlite_multiple_three_tables_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="student_crud" type="462c0819:PsiDirectoryNode" />
               <item name="student_create" type="462c0819:PsiDirectoryNode" />
@@ -352,7 +407,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlite_multiple_three_tables_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="student_crud" type="462c0819:PsiDirectoryNode" />
               <item name="student_list_show" type="462c0819:PsiDirectoryNode" />
@@ -364,7 +419,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlite_multiple_three_tables_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
               <item name="mainMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -374,7 +429,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlite_multiple_three_tables_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
               <item name="mainTabs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,7 +439,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlite_multiple_three_tables_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -531,6 +586,7 @@
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="9119100101000836" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-02-07T21:48:34.274Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -721,12 +777,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Build Variants" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.19515885" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="7" />
@@ -734,11 +791,11 @@
       <window_info anchor="bottom" id="Android Profiler" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5030257" side_tool="true" weight="0.32943144" />
       <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.4969743" weight="0.327787" />
-      <window_info active="true" anchor="bottom" id="Build" order="3" visible="true" weight="0.29118136" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="3" weight="0.29118136" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.327787" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.327787" />
+      <window_info active="true" anchor="bottom" id="Find" order="7" visible="true" weight="0.327787" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.3294509" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -792,13 +849,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tabsStudentActivity.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tabsStudentActivity.java</url>
           <line>44</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mifareReader/MifareActivity.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mifareReader/MifareActivity.java</url>
           <line>52</line>
           <properties />
           <option name="timeStamp" value="14" />
@@ -810,25 +867,25 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mifareReader/MifareActivity.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mifareReader/MifareActivity.java</url>
           <line>53</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mifareReader/MifareActivity.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mifareReader/MifareActivity.java</url>
           <line>33</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mifareReader/MifareActivity.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mifareReader/MifareActivity.java</url>
           <line>38</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mifareReader/MifareActivity.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mifareReader/MifareActivity.java</url>
           <line>25</line>
           <properties />
           <option name="timeStamp" value="20" />
@@ -892,14 +949,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/com/android/internal/os/RuntimeInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="503" column="13" lean-forward="true" selection-start-line="503" selection-start-column="13" selection-end-line="503" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/Student.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-end-line="88" />
@@ -916,7 +966,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_update/StudentUpdateDialogFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_update/StudentUpdateDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="186" selection-start-line="186" selection-end-line="186" />
@@ -959,7 +1009,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentViewHolder.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
@@ -980,7 +1030,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-508">
           <caret line="69" selection-start-line="69" selection-end-line="69" />
@@ -1095,7 +1145,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mifareReader/MifareActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mifareReader/MifareActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="70" selection-start-column="70" selection-end-column="70" />
@@ -1168,7 +1218,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_create/StudentCreateDialogFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_create/StudentCreateDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-374">
           <folding>
@@ -1177,7 +1227,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tabsStudentActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tabsStudentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
@@ -1195,7 +1245,7 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainMenu/MainMenu.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainMenu/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
@@ -1226,19 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#1092#1110#0" expanded="true" />
-            <element signature="e#1332#1354#0" expanded="true" />
-            <element signature="e#2365#2398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_student_list.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -1250,10 +1287,10 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentListActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1270,29 +1307,49 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mifare.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/StudentQueryImplementation.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/StudentQueryImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3347">
           <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/DatabaseHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+          <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/util/Constants.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        <state relative-caret-position="238">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#1092#1110#0" expanded="true" />
+            <element signature="e#1332#1354#0" expanded="true" />
+            <element signature="e#2365#2398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/tabowa/rfid_app/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
         </state>
       </provider>
     </entry>

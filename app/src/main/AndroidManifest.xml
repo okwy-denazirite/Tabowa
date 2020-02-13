@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hellohasan.sqlite_multiple_three_tables_crud">
+    package="com.tabowa.rfid_app">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,7 +17,7 @@
         android:required="true" />
 
     <application
-        android:name=".util.MyApp"
+        android:name="com.tabowa.rfid_app.util.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -26,7 +26,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".mainMenu.MainMenu"
+            android:name="com.tabowa.rfid_app.mainMenu.MainMenu"
             android:label="@string/student_list"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -36,7 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".mifareReader.MifareActivity"
+        <activity android:name="com.tabowa.rfid_app.mifareReader.MifareActivity"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.nfc.action.TECH_DISCOVERED" />
@@ -49,19 +49,19 @@
                 android:resource="@xml/nfc_tech_filter" />
         </activity>
         <activity
-            android:name=".features.subject_crud.subject_list_show.SubjectListActivity"
+            android:name="com.tabowa.rfid_app.features.subject_crud.subject_list_show.SubjectListActivity"
             android:label="@string/title_activity_subjects"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".features.taken_subject_crud.taken_subject_show.StudentTakenSubjectActivity"
+            android:name="com.tabowa.rfid_app.features.taken_subject_crud.taken_subject_show.StudentTakenSubjectActivity"
             android:label="@string/student_and_taken_subject"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".features.taken_subject_crud.subject_assign.SubjectAssignActivity"
+            android:name="com.tabowa.rfid_app.features.taken_subject_crud.subject_assign.SubjectAssignActivity"
             android:label="@string/subject_assign"
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
-        <activity android:name=".features.student_crud.student_list_show.StudentListActivity"/>
+        <activity android:name="com.tabowa.rfid_app.features.student_crud.student_list_show.StudentListActivity"/>
     </application>
 
 </manifest>
