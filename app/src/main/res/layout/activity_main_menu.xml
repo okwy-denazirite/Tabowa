@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainMenu.MainMenu" >
+
+    <ScrollView
+        android:id="@+id/scrollViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewMainFooter"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMainMenuRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonMainAccounts"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/map_keys_to_sector"
+                    android:onClick="onShowAccounts"
+                    android:text="@string/action_accounts" />
+
+                <Button
+                    android:id="@+id/buttonMainStudentInfo"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/open"
+                    android:onClick="onShowStudentinfo"
+                    android:text="@string/action_student_info" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMainMenuRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonMainElection"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/tag_info"
+                    android:onClick="onOpenElection"
+                    android:text="@string/action_election" />
+
+                <Button
+                    android:id="@+id/buttonMainNYB"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/warning"
+                    android:onClick="onOpenNYI"
+                    android:text="@string/action_aoi" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMainMenuRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonMainTools"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/tools"
+                    android:onClick="onShowTools"
+                    android:text="@string/action_tools" />
+
+                <Button
+                    android:id="@+id/buttonMainHelp"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/help_and_info"
+                    android:onClick="onShowHelp"
+                    android:text="@string/action_help" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textViewMainFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="1dp"
+        android:paddingRight="14dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

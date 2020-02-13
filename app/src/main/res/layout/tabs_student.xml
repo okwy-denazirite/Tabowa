@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainTabs.tabsStudentActivity">
+
+<com.google.android.material.tabs.TabLayout
+    android:id="@+id/tabLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<com.google.android.material.tabs.TabItem
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Tab1"
+    android:text="@string/tab_info"
+    />
+
+    <com.google.android.material.tabs.TabItem
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tab2"
+        android:text="@string/tab_fees"
+        />
+
+    <com.google.android.material.tabs.TabItem
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tab3"
+        android:text="@string/tab_courses"
+        />
+
+</com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

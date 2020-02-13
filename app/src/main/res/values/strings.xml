@@ -1,0 +1,947 @@
+<resources>
+
+    <string name="gender_str">Gender</string>
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="app_name">Tabowa App Demo</string>
+    <string name="action_add_subject">Add Course</string>
+    <string name="course_code">Course Code: %d</string>
+    <string name="course_credit">Course Credit: %.2f</string>
+    <string name="title_activity_subjects">Course List</string>
+    <string name="no_data_found">No data found in database!</string>
+    <string name="student_count">Number of Student: %d</string>
+    <string name="subject_count">Number of Course: %d</string>
+    <string name="taken_subject_count">Number of Taken Course: %d</string>
+    <string name="delete_button_description">This icon is responsible for delete the resource</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_subject">CreateCourseActivity</string>
+    <string name="registration_no">Registration No</string>
+    <string name="email">Email</string>
+    <string name="department">Department</string>
+    <string name="school">School</string>
+    <string name="photo">Photo</string>
+
+    <string name="program">Program</string>
+    <string name="category">Category</string>
+    <string name="session">Session</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="nok">Next of Kin</string>
+    <string name="nok_addr">NOK Address</string>
+    <string name="nok_phone">NOK Photo</string>
+    <string name="state">State</string>
+    <string name="lga">LGA</string>
+    <string name="home_town">Home Town</string>
+    <string name="health_no">Health No</string>
+    <string name="thumbprint">Thumb Print</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="expiry_date">Expiry Date</string>
+    <!--<string name="gender">Gender</string>-->
+    <string name="nin">NIN</string>
+    <string name="medical_no">Medical Card No</string>
+    <string name="form_pick_photos">Select phote</string>
+
+
+    <string name="phone">Phone</string>
+    <string name="cross_image_content_description">Delete student from the database</string>
+    <string name="empty_list_message">List is Empty!</string>
+    <string name="student_name">Student Name</string>
+    <string name="update">Update</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="create_button">Create</string>
+    <string name="all_delete">All Delete</string>
+    <string name="edit_button_description">Edit Single student information</string>
+    <string name="subject_name">Course Name</string>
+    <string name="subject_code">Course Code</string>
+    <string name="subject_credit">Course Credit</string>
+    <string name="add_new_subject">Add New Course</string>
+    <string name="student_information">Student Information</string>
+    <string name="name">Name</string>
+    <string name="registration_no_with_color">Registration Number: </string>
+    <string name="subject_list">Course List</string>
+    <string name="student_list">Tabowa Demo 2</string>
+    <string name="database_summary">Total Student: %1$d. Total Course: %2$d</string>
+    <string name="update_button">Update</string>
+    <string name="table_row_count_failed">Table row count failed</string>
+    <string name="taken_subject_by_student">Taken Courses by Student</string>
+    <string name="student_and_taken_subject"><![CDATA[Student Info & Taken Course]]></string>
+    <string name="no_subject">This student haven\'t taken any subject</string>
+    <string name="subject_assign">Course Assign to Student</string>
+    <string name="close">Close</string>
+    <string name="no_subject_so_add_now">No Course is found in database. Please add subject from Home page\'s menu</string>
+
+    <string-array name="state">
+        <item>	State	</item>
+        <item>	Abia	</item>
+        <item>	Adamawa	</item>
+        <item>	Akwa Ibom	</item>
+        <item>	Anambra	</item>
+        <item>	Bauchi	</item>
+        <item>	Bayelsa	</item>
+        <item>	Benue	</item>
+        <item>	Borno	</item>
+        <item>	Cross River	</item>
+        <item>	Delta	</item>
+        <item>	Ebonyi	</item>
+        <item>	Edo	</item>
+        <item>	Ekiti	</item>
+        <item>	Enugu	</item>
+        <item>	Fct-Abuja	</item>
+        <item>	Gombe	</item>
+        <item>	Imo	</item>
+        <item>	Jigawa	</item>
+        <item>	Kaduna	</item>
+        <item>	Kano	</item>
+        <item>	Katsina	</item>
+        <item>	Kebbi	</item>
+        <item>	Kogi	</item>
+        <item>	Kwara	</item>
+        <item>	Lagos	</item>
+        <item>	Nassarawa	</item>
+        <item>	Niger	</item>
+        <item>	Ogun	</item>
+        <item>	Ondo	</item>
+        <item>	Osun	</item>
+        <item>	Oyo	</item>
+        <item>	Plateau	</item>
+        <item>	Rivers	</item>
+        <item>	Sokoto	</item>
+        <item>	Taraba	</item>
+        <item>	Yobe	</item>
+        <item>	Zamfara	</item>
+    </string-array>
+
+
+    <string-array name="lga">
+        <item>	LGA	</item>
+        <item>	Aba North	</item>
+        <item>	Aba South	</item>
+        <item>	Arochukwu	</item>
+        <item>	Bende	</item>
+        <item>	Ikwuano	</item>
+        <item>	Isiala Ngwa North	</item>
+        <item>	Isiala Ngwa South	</item>
+        <item>	Isuikwuato	</item>
+        <item>	Obingwa	</item>
+        <item>	Ohafia	</item>
+        <item>	Osisioma	</item>
+        <item>	Ugwunagbo	</item>
+        <item>	Ukwa East	</item>
+        <item>	Ukwa  West	</item>
+        <item>	Umuahia North	</item>
+        <item>	Umuahia  South	</item>
+        <item>	Umu - Nneochi	</item>
+        <item>	Demsa	</item>
+        <item>	Fufore	</item>
+        <item>	Ganye	</item>
+        <item>	Gire 1	</item>
+        <item>	Gombi	</item>
+        <item>	Guyuk	</item>
+        <item>	Hong	</item>
+        <item>	Jada	</item>
+        <item>	Lamurde	</item>
+        <item>	Madagali	</item>
+        <item>	Maiha	</item>
+        <item>	Mayo - Belwa	</item>
+        <item>	Michika	</item>
+        <item>	Mubi North	</item>
+        <item>	Mubi South	</item>
+        <item>	Numan	</item>
+        <item>	Shelleng	</item>
+        <item>	Song	</item>
+        <item>	Toungo	</item>
+        <item>	Yola North	</item>
+        <item>	Yola South	</item>
+        <item>	Abak	</item>
+        <item>	Eastern Obolo	</item>
+        <item>	Eket	</item>
+        <item>	Esit Eket (uquo)	</item>
+        <item>	Essien Udim	</item>
+        <item>	Etim Ekpo	</item>
+        <item>	Etinan	</item>
+        <item>	Ibeno	</item>
+        <item>	Ibesikpo Asutan	</item>
+        <item>	Ibiono Ibom	</item>
+        <item>	Ika	</item>
+        <item>	Ikono	</item>
+        <item>	Ikot Abasi	</item>
+        <item>	Ikot Ekpene	</item>
+        <item>	Ini	</item>
+        <item>	Itu	</item>
+        <item>	Mbo	</item>
+        <item>	Mkpat Enin	</item>
+        <item>	Nsit Atai	</item>
+        <item>	Nsit Ibom	</item>
+        <item>	Nsit Ubium	</item>
+        <item>	Obot Akara	</item>
+        <item>	Okobo	</item>
+        <item>	Onna	</item>
+        <item>	Oron	</item>
+        <item>	Oruk Anam	</item>
+        <item>	Udung Uko	</item>
+        <item>	Ukanafun	</item>
+        <item>	Uruan	</item>
+        <item>	Urue Offong/oruko	</item>
+        <item>	Uyo	</item>
+        <item>	Aguata	</item>
+        <item>	Ayamelum	</item>
+        <item>	Anambra East	</item>
+        <item>	Anambra West	</item>
+        <item>	Anaocha	</item>
+        <item>	Awka North	</item>
+        <item>	Awka South	</item>
+        <item>	Dunukofia	</item>
+        <item>	Ekwusigo	</item>
+        <item>	Idemili North	</item>
+        <item>	Idemili-south	</item>
+        <item>	Ihala	</item>
+        <item>	Njikoka	</item>
+        <item>	Nnewi North	</item>
+        <item>	Nnewi South	</item>
+        <item>	Ogbaru	</item>
+        <item>	Onitsha-north	</item>
+        <item>	Onitsha -south	</item>
+        <item>	Orumba North	</item>
+        <item>	Orumba  South	</item>
+        <item>	Oyi	</item>
+        <item>	Alkaleri	</item>
+        <item>	Bauchi	</item>
+        <item>	Bogoro	</item>
+        <item>	Dambam	</item>
+        <item>	Darazo	</item>
+        <item>	Dass	</item>
+        <item>	Gamawa	</item>
+        <item>	Ganjuwa	</item>
+        <item>	Giade	</item>
+        <item>	Itas/gadau	</item>
+        <item>	JAMA\'ARE	</item>
+        <item>	Katagum	</item>
+        <item>	Kirfi	</item>
+        <item>	Misau	</item>
+        <item>	Ningi	</item>
+        <item>	Shira	</item>
+        <item>	Tafawa Balewa	</item>
+        <item>	Toro	</item>
+        <item>	Warji	</item>
+        <item>	Zaki	</item>
+        <item>	Brass	</item>
+        <item>	Ekeremor	</item>
+        <item>	Kolokuma/opokuma	</item>
+        <item>	Nembe	</item>
+        <item>	Ogbia	</item>
+        <item>	Sagbama	</item>
+        <item>	Southern Ijaw	</item>
+        <item>	Yenagoa	</item>
+        <item>	Ado	</item>
+        <item>	Agatu	</item>
+        <item>	Apa	</item>
+        <item>	Buruku	</item>
+        <item>	Gboko	</item>
+        <item>	Guma	</item>
+        <item>	Gwer East	</item>
+        <item>	Gwer West	</item>
+        <item>	Katsina-ala	</item>
+        <item>	Konshisha	</item>
+        <item>	Kwande	</item>
+        <item>	Logo	</item>
+        <item>	Makurdi	</item>
+        <item>	Obi	</item>
+        <item>	Ogbadibo	</item>
+        <item>	Oju	</item>
+        <item>	Ohimini	</item>
+        <item>	Okpokwu	</item>
+        <item>	Otukpo	</item>
+        <item>	Tarka	</item>
+        <item>	Ukum	</item>
+        <item>	Ushongo	</item>
+        <item>	Vandeikya	</item>
+        <item>	Abadam	</item>
+        <item>	Askira / Uba	</item>
+        <item>	Bama	</item>
+        <item>	Bayo	</item>
+        <item>	Biu	</item>
+        <item>	Chibok	</item>
+        <item>	Damboa	</item>
+        <item>	Dikwa	</item>
+        <item>	Gubio	</item>
+        <item>	Guzamala	</item>
+        <item>	Gwoza	</item>
+        <item>	Hawul	</item>
+        <item>	Jere	</item>
+        <item>	Kaga	</item>
+        <item>	Kala Balge	</item>
+        <item>	Konduga	</item>
+        <item>	Kukawa	</item>
+        <item>	Kwaya / Kusar	</item>
+        <item>	Mafa	</item>
+        <item>	Magumeri	</item>
+        <item>	Maiduguri M. C.	</item>
+        <item>	Marte	</item>
+        <item>	Mobbar	</item>
+        <item>	Monguno	</item>
+        <item>	Ngala	</item>
+        <item>	Nganzai	</item>
+        <item>	Shani	</item>
+        <item>	Abi	</item>
+        <item>	Akamkpa	</item>
+        <item>	Akpabuyo	</item>
+        <item>	Bakassi	</item>
+        <item>	Bekwarra	</item>
+        <item>	Biase	</item>
+        <item>	Boki	</item>
+        <item>	Calabar Municipality	</item>
+        <item>	Calabar South	</item>
+        <item>	Etung	</item>
+        <item>	Ikom	</item>
+        <item>	Obanliku	</item>
+        <item>	Obubra	</item>
+        <item>	Obudu	</item>
+        <item>	Odukpani	</item>
+        <item>	Ogoja	</item>
+        <item>	Yakurr	</item>
+        <item>	Yala	</item>
+        <item>	Aniocha North	</item>
+        <item>	Aniocha - South	</item>
+        <item>	Bomadi	</item>
+        <item>	Burutu	</item>
+        <item>	Ethiope  East	</item>
+        <item>	Ethiope  West	</item>
+        <item>	Ika North- East	</item>
+        <item>	Ika - South	</item>
+        <item>	Isoko North	</item>
+        <item>	Isoko South	</item>
+        <item>	Ndokwa East	</item>
+        <item>	Ndokwa West	</item>
+        <item>	Okpe	</item>
+        <item>	Oshimili - North	</item>
+        <item>	Oshimili - South	</item>
+        <item>	Patani	</item>
+        <item>	Sapele	</item>
+        <item>	Udu	</item>
+        <item>	Ughelli North	</item>
+        <item>	Ughelli South	</item>
+        <item>	Ukwuani	</item>
+        <item>	Uvwie	</item>
+        <item>	Warri  North	</item>
+        <item>	Warri South	</item>
+        <item>	Warri South  West	</item>
+        <item>	Abakaliki	</item>
+        <item>	Afikpo North	</item>
+        <item>	Afikpo  South	</item>
+        <item>	Ebonyi	</item>
+        <item>	Ezza North	</item>
+        <item>	Ezza South	</item>
+        <item>	Ikwo	</item>
+        <item>	Ishielu	</item>
+        <item>	Ivo	</item>
+        <item>	Izzi	</item>
+        <item>	Ohaozara	</item>
+        <item>	Ohaukwu	</item>
+        <item>	Onicha	</item>
+        <item>	Akoko Edo	</item>
+        <item>	Egor	</item>
+        <item>	Esan Central	</item>
+        <item>	Esan North East	</item>
+        <item>	Esan South East	</item>
+        <item>	Esan West	</item>
+        <item>	Etsako Central	</item>
+        <item>	Etsako East	</item>
+        <item>	Etsako  West	</item>
+        <item>	Igueben	</item>
+        <item>	Ikpoba/okha	</item>
+        <item>	Oredo	</item>
+        <item>	Orhionmwon	</item>
+        <item>	Ovia North East	</item>
+        <item>	Ovia South West	</item>
+        <item>	Owan East	</item>
+        <item>	Owan West	</item>
+        <item>	Uhunmwode	</item>
+        <item>	Ado Ekiti	</item>
+        <item>	Efon	</item>
+        <item>	Ekiti East	</item>
+        <item>	Ekiti West	</item>
+        <item>	Ekiti South West	</item>
+        <item>	Emure	</item>
+        <item>	Gbonyin	</item>
+        <item>	Ido / Osi	</item>
+        <item>	Ijero	</item>
+        <item>	Ikere	</item>
+        <item>	Ikole	</item>
+        <item>	Ilejemeje	</item>
+        <item>	Irepodun / Ifelodun	</item>
+        <item>	Ise / Orun	</item>
+        <item>	Moba	</item>
+        <item>	Oye	</item>
+        <item>	Aninri	</item>
+        <item>	Awgu	</item>
+        <item>	Enugu East	</item>
+        <item>	Enugu North	</item>
+        <item>	Enugu South	</item>
+        <item>	Ezeagu	</item>
+        <item>	Igbo Etiti	</item>
+        <item>	Igbo Eze North	</item>
+        <item>	Igbo Eze South	</item>
+        <item>	Isi Uzo	</item>
+        <item>	Nkanu East	</item>
+        <item>	Nkanu West	</item>
+        <item>	Nsukka	</item>
+        <item>	Oji-river	</item>
+        <item>	Udenu	</item>
+        <item>	Udi	</item>
+        <item>	Uzo-uwani	</item>
+        <item>	Abaji	</item>
+        <item>	Bwari	</item>
+        <item>	Gwagwalada	</item>
+        <item>	Kuje	</item>
+        <item>	Kwali	</item>
+        <item>	Municipal	</item>
+        <item>	Akko	</item>
+        <item>	Balanga	</item>
+        <item>	Billiri	</item>
+        <item>	Dukku	</item>
+        <item>	Funakaye	</item>
+        <item>	Gombe	</item>
+        <item>	Kaltungo	</item>
+        <item>	Kwami	</item>
+        <item>	Nafada	</item>
+        <item>	Shongom	</item>
+        <item>	Yalmaltu/ Deba	</item>
+        <item>	Aboh Mbaise	</item>
+        <item>	Ahiazu Mbaise	</item>
+        <item>	Ehime Mbano	</item>
+        <item>	Ezinihitte Mbaise	</item>
+        <item>	Ideato North	</item>
+        <item>	Ideato South	</item>
+        <item>	Ihitte/uboma (isinweke)	</item>
+        <item>	Ikeduru (iho)	</item>
+        <item>	Isiala Mbano (umuelemai)	</item>
+        <item>	Isu (umundugba)	</item>
+        <item>	Mbaitoli (nwaorieubi)	</item>
+        <item>	Ngor Okpala (umuneke)	</item>
+        <item>	Njaba (nnenasa)	</item>
+        <item>	Nkwerre	</item>
+        <item>	Nwangele (onu-nwangele Amaigbo)	</item>
+        <item>	Obowo (otoko)	</item>
+        <item>	Oguta (oguta)	</item>
+        <item>	Ohaji/egbema (mmahu-egbema)	</item>
+        <item>	Okigwe  (okigwe)	</item>
+        <item>	Onuimo (okwe)	</item>
+        <item>	Orlu	</item>
+        <item>	Orsu (awo Idemili)	</item>
+        <item>	Oru-east	</item>
+        <item>	Oru West (mgbidi)	</item>
+        <item>	Owerri Municipal	</item>
+        <item>	Owerri North (orie Uratta)	</item>
+        <item>	Owerri West (umuguma)	</item>
+        <item>	Auyo	</item>
+        <item>	Babura	</item>
+        <item>	Birnin Kudu	</item>
+        <item>	Birniwa	</item>
+        <item>	Buji	</item>
+        <item>	Dutse	</item>
+        <item>	Garki	</item>
+        <item>	Gagarawa	</item>
+        <item>	Gumel	</item>
+        <item>	Guri	</item>
+        <item>	Gwaram	</item>
+        <item>	Gwiwa	</item>
+        <item>	Hadejia	</item>
+        <item>	Jahun	</item>
+        <item>	Kafin Hausa	</item>
+        <item>	Kaugama	</item>
+        <item>	Kazaure	</item>
+        <item>	Kirika Samma	</item>
+        <item>	Kiyawa	</item>
+        <item>	Maigatari	</item>
+        <item>	Malam Madori	</item>
+        <item>	Miga	</item>
+        <item>	Ringim	</item>
+        <item>	Roni	</item>
+        <item>	Sule-tankarkar	</item>
+        <item>	Taura	</item>
+        <item>	Yankwashi	</item>
+        <item>	Birnin Gwari	</item>
+        <item>	Chikun	</item>
+        <item>	Giwa	</item>
+        <item>	Igabi	</item>
+        <item>	Ikara	</item>
+        <item>	Jaba	</item>
+        <item>	JEMA\'A	</item>
+        <item>	Kachia	</item>
+        <item>	Kaduna North	</item>
+        <item>	Kaduna South	</item>
+        <item>	Kagarko	</item>
+        <item>	Kajuru	</item>
+        <item>	Kaura	</item>
+        <item>	Kauru	</item>
+        <item>	Kubau	</item>
+        <item>	Kudan	</item>
+        <item>	Lere	</item>
+        <item>	Makarfi	</item>
+        <item>	Sabon Gari	</item>
+        <item>	Sanga	</item>
+        <item>	Soba	</item>
+        <item>	Zangon Kataf	</item>
+        <item>	Zaria	</item>
+        <item>	Ajingi	</item>
+        <item>	Albasu	</item>
+        <item>	Bagwai	</item>
+        <item>	Bebeji	</item>
+        <item>	Bichi	</item>
+        <item>	Bunkure	</item>
+        <item>	Dala	</item>
+        <item>	Danbata	</item>
+        <item>	Dawaki Kudu	</item>
+        <item>	Dawaki Tofa	</item>
+        <item>	Doguwa	</item>
+        <item>	Fagge	</item>
+        <item>	Gabasawa	</item>
+        <item>	Garko	</item>
+        <item>	Garun Malam	</item>
+        <item>	Gaya	</item>
+        <item>	Gezawa	</item>
+        <item>	Gwale	</item>
+        <item>	Gwarzo	</item>
+        <item>	Kabo	</item>
+        <item>	Kano Municipal	</item>
+        <item>	Karaye	</item>
+        <item>	Kibiya	</item>
+        <item>	Kiru	</item>
+        <item>	Kumbotso	</item>
+        <item>	Kunchi	</item>
+        <item>	Kura	</item>
+        <item>	Madobi	</item>
+        <item>	Makoda	</item>
+        <item>	Minjibir	</item>
+        <item>	Nasarawa	</item>
+        <item>	Rano	</item>
+        <item>	Rimin Gado	</item>
+        <item>	Rogo	</item>
+        <item>	Shanono	</item>
+        <item>	Sumaila	</item>
+        <item>	Takai	</item>
+        <item>	Tarauni	</item>
+        <item>	Tofa	</item>
+        <item>	Tsanyawa	</item>
+        <item>	Tudun Wada	</item>
+        <item>	Ungogo	</item>
+        <item>	Warawa	</item>
+        <item>	Wudil	</item>
+        <item>	Bakori	</item>
+        <item>	Batagarawa	</item>
+        <item>	Batsari	</item>
+        <item>	Baure	</item>
+        <item>	Bindawa	</item>
+        <item>	Charanchi	</item>
+        <item>	Dandume	</item>
+        <item>	Danja	</item>
+        <item>	Dan Musa	</item>
+        <item>	Daura	</item>
+        <item>	Dutsi	</item>
+        <item>	Dutsin-ma	</item>
+        <item>	Faskari	</item>
+        <item>	Funtua	</item>
+        <item>	Ingawa	</item>
+        <item>	Jibia	</item>
+        <item>	Kafur	</item>
+        <item>	Kaita	</item>
+        <item>	Kankara	</item>
+        <item>	Kankia	</item>
+        <item>	Katsina	</item>
+        <item>	Kurfi	</item>
+        <item>	Kusada	</item>
+        <item>	MAI\'ADUA	</item>
+        <item>	Malufashi	</item>
+        <item>	Mani	</item>
+        <item>	Mashi	</item>
+        <item>	Matazu	</item>
+        <item>	Musawa	</item>
+        <item>	Rimi	</item>
+        <item>	Sabuwa	</item>
+        <item>	Safana	</item>
+        <item>	Sandamu	</item>
+        <item>	Zango	</item>
+        <item>	Aliero	</item>
+        <item>	Arewa	</item>
+        <item>	Argungu	</item>
+        <item>	Augie	</item>
+        <item>	Bagudo	</item>
+        <item>	Birnin Kebbi	</item>
+        <item>	Bunza	</item>
+        <item>	Dandi	</item>
+        <item>	Fakai	</item>
+        <item>	Gwandu	</item>
+        <item>	Jega	</item>
+        <item>	Kalgo	</item>
+        <item>	Koko/besse	</item>
+        <item>	Maiyama	</item>
+        <item>	Ngaski	</item>
+        <item>	Sakaba	</item>
+        <item>	Shanga	</item>
+        <item>	Suru	</item>
+        <item>	Wasagu/danko	</item>
+        <item>	Yauri	</item>
+        <item>	Zuru	</item>
+        <item>	Adavi	</item>
+        <item>	Ajaokuta	</item>
+        <item>	Ankpa	</item>
+        <item>	Bassa	</item>
+        <item>	Dekina	</item>
+        <item>	Ibaji	</item>
+        <item>	Idah	</item>
+        <item>	Igalamela/odolu	</item>
+        <item>	Ijumu	</item>
+        <item>	Kabba/bunu	</item>
+        <item>	Kogi . K. K.	</item>
+        <item>	Lokoja	</item>
+        <item>	Mopa Moro	</item>
+        <item>	Ofu	</item>
+        <item>	Ogori Mangogo	</item>
+        <item>	Okehi	</item>
+        <item>	Okene	</item>
+        <item>	Olamaboro	</item>
+        <item>	Omala	</item>
+        <item>	Yagba East	</item>
+        <item>	Yagba West	</item>
+        <item>	Asa	</item>
+        <item>	Baruten	</item>
+        <item>	Edu	</item>
+        <item>	Ekiti	</item>
+        <item>	Ifelodun	</item>
+        <item>	Ilorin East	</item>
+        <item>	Ilorin-south	</item>
+        <item>	Ilorin-west	</item>
+        <item>	Irepodun	</item>
+        <item>	Isin	</item>
+        <item>	Kaiama	</item>
+        <item>	Moro	</item>
+        <item>	Offa	</item>
+        <item>	Oke - Ero	</item>
+        <item>	Oyun	</item>
+        <item>	Patigi	</item>
+        <item>	Agege	</item>
+        <item>	Ajeromi/ifelodun	</item>
+        <item>	Alimosho	</item>
+        <item>	Amuwo-odofin	</item>
+        <item>	Apapa	</item>
+        <item>	Badagry	</item>
+        <item>	Epe	</item>
+        <item>	Eti-osa	</item>
+        <item>	Ibeju/lekki	</item>
+        <item>	Ifako-ijaye	</item>
+        <item>	Ikeja	</item>
+        <item>	Ikorodu	</item>
+        <item>	Kosofe	</item>
+        <item>	Lagos Island	</item>
+        <item>	Lagos Mainland	</item>
+        <item>	Mushin	</item>
+        <item>	Ojo	</item>
+        <item>	Oshodi/isolo	</item>
+        <item>	Somolu	</item>
+        <item>	Surulere	</item>
+        <item>	Akwanga	</item>
+        <item>	Awe	</item>
+        <item>	Doma	</item>
+        <item>	Karu	</item>
+        <item>	Keana	</item>
+        <item>	Keffi	</item>
+        <item>	Kokona	</item>
+        <item>	Lafia	</item>
+        <item>	Nasarawa	</item>
+        <item>	Nasarawa Eggon	</item>
+        <item>	Obi	</item>
+        <item>	Toto	</item>
+        <item>	Wamba	</item>
+        <item>	Agaie	</item>
+        <item>	Agwara	</item>
+        <item>	Bida	</item>
+        <item>	Borgu	</item>
+        <item>	Bosso	</item>
+        <item>	Chanchaga	</item>
+        <item>	Edatti	</item>
+        <item>	Gbako	</item>
+        <item>	Gurara	</item>
+        <item>	Katcha	</item>
+        <item>	Kontagora	</item>
+        <item>	Lapai	</item>
+        <item>	Lavun	</item>
+        <item>	Magama	</item>
+        <item>	Mariga	</item>
+        <item>	Mashegu	</item>
+        <item>	Mokwa	</item>
+        <item>	Munya	</item>
+        <item>	Paikoro	</item>
+        <item>	Rafi	</item>
+        <item>	Rijau	</item>
+        <item>	Shiroro	</item>
+        <item>	Suleja	</item>
+        <item>	Tafa	</item>
+        <item>	Wushishi	</item>
+        <item>	Abeokuta North	</item>
+        <item>	Abeokuta South	</item>
+        <item>	Ado Odo-ota	</item>
+        <item>	Egbado North	</item>
+        <item>	Egbado South	</item>
+        <item>	Ewekoro	</item>
+        <item>	Ifo	</item>
+        <item>	Ijebu East	</item>
+        <item>	Ijebu North	</item>
+        <item>	Ijebu North East	</item>
+        <item>	Ijebu Ode	</item>
+        <item>	Ikenne	</item>
+        <item>	Imeko/afon	</item>
+        <item>	Ipokia	</item>
+        <item>	Obafemi/owode	</item>
+        <item>	Odeda	</item>
+        <item>	Odogbolu	</item>
+        <item>	Ogun Water Side	</item>
+        <item>	Remo North	</item>
+        <item>	Sagamu	</item>
+        <item>	Akoko North East	</item>
+        <item>	Akoko North West	</item>
+        <item>	Akoko South East	</item>
+        <item>	Akoko South West	</item>
+        <item>	Akure North	</item>
+        <item>	Akure South	</item>
+        <item>	Ese-odo	</item>
+        <item>	Idanre	</item>
+        <item>	Ifedore	</item>
+        <item>	Ilaje	</item>
+        <item>	Ileoluji/okeigbo	</item>
+        <item>	Irele	</item>
+        <item>	Odigbo	</item>
+        <item>	Okitipupa	</item>
+        <item>	Ondo East	</item>
+        <item>	Ondo West	</item>
+        <item>	Ose	</item>
+        <item>	Owo	</item>
+        <item>	Atakumosa East	</item>
+        <item>	Atakumosa West	</item>
+        <item>	Ayedaade	</item>
+        <item>	Ayedire	</item>
+        <item>	Boluwaduro	</item>
+        <item>	Boripe	</item>
+        <item>	Ede North	</item>
+        <item>	Ede South	</item>
+        <item>	Egbedore	</item>
+        <item>	Ejigbo	</item>
+        <item>	Ife Central	</item>
+        <item>	Ifedayo	</item>
+        <item>	Ife East	</item>
+        <item>	Ifelodun	</item>
+        <item>	Ife North	</item>
+        <item>	Ife South	</item>
+        <item>	Ila	</item>
+        <item>	Ilesa East	</item>
+        <item>	Ilesa West	</item>
+        <item>	Irepodun	</item>
+        <item>	Irewole	</item>
+        <item>	Isokan	</item>
+        <item>	Iwo	</item>
+        <item>	Obokun	</item>
+        <item>	Odo-otin	</item>
+        <item>	Ola-oluwa	</item>
+        <item>	Olorunda	</item>
+        <item>	Oriade	</item>
+        <item>	Orolu	</item>
+        <item>	Osogbo	</item>
+        <item>	Afijio	</item>
+        <item>	Akinyele	</item>
+        <item>	Atiba	</item>
+        <item>	Atisbo	</item>
+        <item>	Egbeda	</item>
+        <item>	Ibadan North	</item>
+        <item>	Ibadan North East	</item>
+        <item>	Ibadan North West	</item>
+        <item>	Ibadan South-east	</item>
+        <item>	Ibadan South West	</item>
+        <item>	Ibarapa Central	</item>
+        <item>	Ibarapa East	</item>
+        <item>	Ibarapa North	</item>
+        <item>	Ido	</item>
+        <item>	Irepo	</item>
+        <item>	Iseyin	</item>
+        <item>	Itesiwaju	</item>
+        <item>	Iwajowa	</item>
+        <item>	Kajola	</item>
+        <item>	Lagelu	</item>
+        <item>	Ogbomoso North	</item>
+        <item>	Ogbomoso South	</item>
+        <item>	Ogo-oluwa	</item>
+        <item>	Olorunsogo	</item>
+        <item>	Oluyole	</item>
+        <item>	Ona-ara	</item>
+        <item>	Oorelope	</item>
+        <item>	Ori Ire	</item>
+        <item>	Oyo East	</item>
+        <item>	Oyo West	</item>
+        <item>	Saki East	</item>
+        <item>	Saki West	</item>
+        <item>	Surulere	</item>
+        <item>	Jos North	</item>
+        <item>	Barikin Ladi	</item>
+        <item>	Bassa	</item>
+        <item>	Bokkos	</item>
+        <item>	Jos East	</item>
+        <item>	Jos South	</item>
+        <item>	Kanam	</item>
+        <item>	Kanke	</item>
+        <item>	Langtang North	</item>
+        <item>	Langtang South	</item>
+        <item>	Mangu	</item>
+        <item>	Mikang	</item>
+        <item>	Pankshin	</item>
+        <item>	QUA\'AN PAN	</item>
+        <item>	Riyom	</item>
+        <item>	Shendam	</item>
+        <item>	Wase	</item>
+        <item>	Abua-odual	</item>
+        <item>	Ahoada East	</item>
+        <item>	Ahoada West	</item>
+        <item>	Akuku Toru	</item>
+        <item>	Andoni	</item>
+        <item>	Asari-toru	</item>
+        <item>	Bonny	</item>
+        <item>	Degema	</item>
+        <item>	Eleme	</item>
+        <item>	Emohua	</item>
+        <item>	Etche	</item>
+        <item>	Gokana	</item>
+        <item>	Ikwerre	</item>
+        <item>	Khana	</item>
+        <item>	Obio/akpor	</item>
+        <item>	Ogba/egbema/ndoni	</item>
+        <item>	Ogu/bolo	</item>
+        <item>	Okrika	</item>
+        <item>	Omuma	</item>
+        <item>	Opobo/nekoro	</item>
+        <item>	Oyigbo	</item>
+        <item>	Port Harcourt	</item>
+        <item>	Tai	</item>
+        <item>	Binji	</item>
+        <item>	Bodinga	</item>
+        <item>	Dange/shuni	</item>
+        <item>	Gada	</item>
+        <item>	Goronyo	</item>
+        <item>	Gudu	</item>
+        <item>	Gwadabawa	</item>
+        <item>	Illela	</item>
+        <item>	Isa	</item>
+        <item>	Kware	</item>
+        <item>	Kebbe	</item>
+        <item>	Rabah	</item>
+        <item>	S/birni	</item>
+        <item>	Shagari	</item>
+        <item>	Silame	</item>
+        <item>	Sokoto North	</item>
+        <item>	Sokoto South	</item>
+        <item>	Tambuwal	</item>
+        <item>	Tangaza	</item>
+        <item>	Tureta	</item>
+        <item>	Wamakko	</item>
+        <item>	Wurno	</item>
+        <item>	Yabo	</item>
+        <item>	Ardo - Kola	</item>
+        <item>	Bali	</item>
+        <item>	Donga	</item>
+        <item>	Gashaka	</item>
+        <item>	Gassol	</item>
+        <item>	Ibi	</item>
+        <item>	Jalingo	</item>
+        <item>	Karim-lamido	</item>
+        <item>	Kurmi	</item>
+        <item>	Lau	</item>
+        <item>	Sardauna	</item>
+        <item>	Takum	</item>
+        <item>	Ussa	</item>
+        <item>	Wukari	</item>
+        <item>	Yorro	</item>
+        <item>	Zing	</item>
+        <item>	Bade	</item>
+        <item>	Bursari	</item>
+        <item>	Damaturu	</item>
+        <item>	Fika	</item>
+        <item>	Fune	</item>
+        <item>	Geidam	</item>
+        <item>	Gujba	</item>
+        <item>	Gulani	</item>
+        <item>	Jakusko	</item>
+        <item>	Karasawa	</item>
+        <item>	Machina	</item>
+        <item>	Nangere	</item>
+        <item>	Nguru	</item>
+        <item>	Potiskum	</item>
+        <item>	Tarmuwa	</item>
+        <item>	Yunusari	</item>
+        <item>	Yusufari	</item>
+        <item>	Anka	</item>
+        <item>	Bakura	</item>
+        <item>	Birnin Magaji	</item>
+        <item>	Bukkuyum	</item>
+        <item>	Bungudu	</item>
+        <item>	Gummi	</item>
+        <item>	Gusau	</item>
+        <item>	Kaura Namoda	</item>
+        <item>	Maradun	</item>
+        <item>	Maru	</item>
+        <item>	Shinkafi	</item>
+        <item>	Talata Mafara	</item>
+        <item>	Tsafe	</item>
+        <item>	Zurmi	</item>
+    </string-array>
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_again">Confirm Password</string>
+    <string name="prompt_msg">Type a message</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_send">Send</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Password too short or does not match</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="tab_fees">FEES</string>
+    <string name="tab_courses">COURSES</string>
+    <string name="tab_info">INFO</string>
+    <string name="tab_grade">GRADE</string>
+    <string name="tab_medical">MEDICAL</string>
+    <string name="tab_security">SECURITY</string>
+    <string name="tab_attendance">ATTENDANCE</string>
+    <string name="tab_election">ELECTION</string>
+    <string name="tab_staff">STAFF</string>
+    <string name="tab_staffol">STAFF ONLINE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">Hello blank fragment1</string>
+    <string name="hello_blank_fragment2">Hello blank fragment2</string>
+    <string name="hello_blank_fragment3">Hello blank fragment3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_student_tab">StudentTabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Menu stuffs -->
+    <string name="action_student_info">Student info</string>
+    <string name="action_election">Elections</string>
+    <string name="action_tools">Tools</string>
+    <string name="action_help">Help and info</string>
+    <string name="action_accounts">Accounts info</string>
+    <string name="action_aoi">NYI</string>
+
+
+</resources>
