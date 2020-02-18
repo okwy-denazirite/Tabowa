@@ -11,59 +11,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e68a45c4-2aa3-4184-93d0-d8e1af375a70" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/ElectionListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/admin_crud/AdminCrudListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/admin_crud/admin_create/AdminCreateDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/attendance_crud/AttendanceCrudListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/attendance_crud/attendance_create/AttendanceCreateDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/course_crud/CourseCrudListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/course_crud/course_create/CourseCreateDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/ElectionCrudListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_create/ElectionCreateDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_list_show/ElectionListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_list_show/ElectionListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_list_show/ElectionViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/grade_crud/GradeCrudListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/grade_crud/grade_create/GradeCreateDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/medical_crud/MedicalCrudListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/medical_crud/medical_create/MedicalCreateDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/security_crud/SecurityCrudListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/security_crud/security_create/SecurityCreateDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Attendance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Election.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Medical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_election_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_admin_create_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_create_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_course_create_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_election_create_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_grade_create_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_medical_create_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_security_create_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/tabowa/rfid_app/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/tabowa/rfid_app/test/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/tabowa/rfid_app/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/tabowa/rfid_app/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/hellohasan/sqlite_multiple_three_tables_crud/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/tabowa/rfid_app/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/Accounts/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/Accounts/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/Accounts/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/Accounts/RegisterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/DatabaseHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/QueryContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/QueryContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/QueryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/QueryResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/StudentQueryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/StudentQueryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/SubjectQueryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/SubjectQueryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/TableRowCountQueryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/TableRowCountQueryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/TakenSubjectQueryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/TakenSubjectQueryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/StudentCrudListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/StudentCrudListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_create/StudentCreateDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_create/StudentCreateDialogFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_update/StudentUpdateDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_update/StudentUpdateDialogFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/SubjectCrudListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/SubjectCrudListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_create/SubjectCreateDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_create/SubjectCreateDialogFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_list_show/SubjectListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_list_show/SubjectListActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_list_show/SubjectListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_list_show/SubjectListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_list_show/SubjectViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_list_show/SubjectViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_update/SubjectUpdateDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_update/SubjectUpdateDialogFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/TakenSubjectCrudListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/TakenSubjectCrudListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/subject_assign/SubjectAssignActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/subject_assign/SubjectAssignActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/subject_assign/SubjectAssignListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/subject_assign/SubjectAssignListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/subject_assign/SubjectAssignViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/subject_assign/SubjectAssignViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/taken_subject_show/StudentTakenSubjectActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/taken_subject_show/StudentTakenSubjectActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/taken_subject_show/TakenSubjectListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/taken_subject_show/TakenSubjectListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/taken_subject_crud/taken_subject_show/TakenSubjectViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/taken_subject_crud/taken_subject_show/TakenSubjectViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainMenu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainMenu/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/BlankFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/BlankFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/myPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/myPagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tab1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tab2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tab2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tab3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tab3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tabsStudentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tabsStudentActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mifareReader/MifareActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mifareReader/MifareActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/TableRowCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/TableRowCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/TakenSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/TakenSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/util/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/MyApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_student_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_student_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/hellohasan/sqlite_multiple_three_tables_crud/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/tabowa/rfid_app/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_create/StudentCreateDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_create/StudentCreateDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainMenu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainMenu/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,107 +86,112 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
-                <element signature="e#1092#1110#0" expanded="true" />
-                <element signature="e#1332#1354#0" expanded="true" />
-                <element signature="e#2365#2398#0" expanded="true" />
+                <element signature="e#781#822#0" expanded="true" />
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-manifest" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_course_create_dialog.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+              <folding>
+                <element signature="e#2503#2528#0" expanded="true" />
+                <element signature="e#3273#3288#0" expanded="true" />
+                <element signature="e#4025#4040#0" expanded="true" />
+                <element signature="e#4797#4817#0" expanded="true" />
+                <element signature="e#5560#5576#0" expanded="true" />
+                <element signature="e#6316#6333#0" expanded="true" />
+                <element signature="e#7076#7094#0" expanded="true" />
+                <element signature="e#7836#7853#0" expanded="true" />
+                <element signature="e#8584#8605#0" expanded="true" />
+                <element signature="e#9317#9330#0" expanded="true" />
+                <element signature="e#10043#10061#0" expanded="true" />
+                <element signature="e#10780#10799#0" expanded="true" />
+                <element signature="e#12409#12428#0" expanded="true" />
+                <element signature="e#13156#13175#0" expanded="true" />
+                <element signature="e#13891#13904#0" expanded="true" />
+                <element signature="e#14623#14644#0" expanded="true" />
+                <element signature="e#16236#16249#0" expanded="true" />
+                <element signature="e#16976#16996#0" expanded="true" />
+                <element signature="e#17280#17303#0" expanded="true" />
+                <element signature="e#17685#17708#0" expanded="true" />
+                <marker date="1581980209032" expanded="true" signature="421:1074" ph="..." />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/tabowa/rfid_app/ExampleInstrumentedTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+            <state relative-caret-position="317">
+              <caret line="968" selection-start-line="968" selection-end-line="968" />
+              <folding>
+                <element signature="e#4987#29721#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_security_create_dialog.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mifare_fragment.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_election_list.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_admin_create_dialog.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_create_dialog.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tab1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+            <state relative-caret-position="136">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainMenu/MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/StudentQueryImplementation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3347">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/DatabaseHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mifare.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_student_list.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-              <folding>
-                <element signature="e#1037#1055#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -199,23 +200,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="Class" />
         <option value="resourceFile" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>studentRegistrationEditText</find>
-      <find>layout_marg</find>
-      <find>CoreComponentFactory</find>
-      <find>delete</find>
-      <find>'</find>
-      <find>&lt;EditText</find>
-      <find>floati</find>
-      <find>v</find>
-      <find>startActivityForResult</find>
       <find>permission</find>
       <find>REQUEST</find>
       <find>O</find>
@@ -237,11 +230,28 @@
       <find>windowActionBar</find>
       <find>insert</find>
       <find>android-er</find>
+      <find>medical</find>
+      <find>onitem</find>
+      <find>`</find>
+      <find>Security</find>
+      <find>security</find>
+      <find>ele</find>
+      <find>student</find>
+      <find>Student</find>
+      <find>hassa</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;&quot;</replace>
       <replace>\'</replace>
       <replace>&lt;AutoCompleteTextView</replace>
+      <replace>medical</replace>
+      <replace>Medical</replace>
+      <replace>grade</replace>
+      <replace>course</replace>
+      <replace>Attendance</replace>
+      <replace>admin</replace>
+      <replace>election</replace>
+      <replace>Election</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Projects\UwabisFinal\app\src\main\java\com\hellohasan\sqlite_multiple_three_tables_crud</dir>
@@ -253,31 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/subject_crud/subject_update/SubjectUpdateDialogFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/TakenSubject.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/SubjectQueryImplementation.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/TakenSubjectQueryImplementation.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/hellohasan/sqlite_multiple_three_tables_crud/ExampleInstrumentedTest.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/integers.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/Accounts/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/Accounts/RegisterActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_student_update_dialog.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mainTabs/tabsStudentActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/myPagerAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_blank.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab3.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/TabAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/ui/main/SectionsPagerAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/ui/main/PlaceholderFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/tabs_student.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainTabs/tabsStudentActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab1.xml" />
@@ -296,14 +281,39 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mifareReader/MifareActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mainMenu/MainMenu.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mifare.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/util/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/tabowa/sqlite_multiple_three_tables_crud/ExampleInstrumentedTest.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/tabowa/rfid_app/ExampleInstrumentedTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Admin.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Attendance.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Course.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Election.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Grade.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Medical.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Security.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/medical_crud/MedicalCrudListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/grade_crud/Grade.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_create/StudentCreateDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/security_crud/security_create/SecurityCreateDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/medical_crud/medical_create/MedicalCreateDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/grade_crud/grade_create/GradeCreateDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/course_crud/course_create/CourseCreateDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/attendance_crud/attendance_create/AttendanceCreateDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/admin_crud/admin_create/AdminCreateDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainMenu/MainMenu.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/ElectionCrudListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_list_show/ElectionViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_list_show/ElectionListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_list_show/ElectionListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_create/ElectionCreateDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_course_create_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -313,180 +323,14 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="student_crud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="student_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="student_create" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="student_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="student_list_show" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="mainMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="mainTabs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -578,6 +422,222 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="election_crud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="election_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="election_create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="election_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="election_list_show" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="security_crud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="security_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="security_create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="student_crud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="student_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="student_create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="student_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="student_list_show" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="mainTabs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -610,6 +670,7 @@
       <recent name="com.hellohasan.sqlite_multiple_three_tables_crud" />
     </key>
     <key name="android.template.packageName">
+      <recent name="com.tabowa.rfid_app" />
       <recent name="com.hellohasan.sqlite_multiple_three_tables_crud.mainMenu" />
       <recent name="com.hellohasan.sqlite_multiple_three_tables_crud.mifareReader" />
       <recent name="com.hellohasan.sqlite_multiple_three_tables_crud" />
@@ -777,25 +838,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Build Variants" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.19515885" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.31694403" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="7" />
       <window_info id="Resources Explorer" order="8" />
-      <window_info anchor="bottom" id="Android Profiler" order="0" />
+      <window_info anchor="bottom" id="Android Profiler" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5030257" side_tool="true" weight="0.32943144" />
       <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.4969743" weight="0.327787" />
-      <window_info anchor="bottom" id="Build" order="3" weight="0.29118136" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Build" order="3" visible="true" weight="0.29118136" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.3294509" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.327787" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info active="true" anchor="bottom" id="Find" order="7" visible="true" weight="0.327787" />
+      <window_info anchor="bottom" id="Find" order="7" visible="true" weight="0.327787" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.3294509" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -844,6 +904,46 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -949,288 +1049,272 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Attendance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Election.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Grade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Medical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-end-line="88" />
-          <folding>
-            <element signature="e#2626#2627#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/ViewRootImpl.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Security.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="2979" column="21" selection-start-line="2979" selection-start-column="21" selection-end-line="2979" selection-end-column="21" />
+        <state relative-caret-position="357">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_update/StudentUpdateDialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-          <folding>
-            <element signature="e#8039#12157#0" expanded="true" />
-            <element signature="e#12156#12157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_subject_card_view.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_medical_create_dialog.xml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_grade_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_election_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/security_crud/security_create/SecurityCreateDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+        <state relative-caret-position="626">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SecurityCreateDialogFragment#0;class#SecurityCreateDialogFragment#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/LinearLayoutManager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/medical_crud/medical_create/MedicalCreateDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="612" selection-start-line="612" selection-end-line="612" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/ViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6263" selection-start-line="6263" selection-end-line="6263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20846" selection-start-line="20846" selection-end-line="20846" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/grade_crud/grade_create/GradeCreateDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="6816" column="34" lean-forward="true" selection-start-line="6816" selection-start-column="34" selection-end-line="6816" selection-end-column="34" />
+        <state relative-caret-position="194">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
-            <element signature="e#246354#246355#0" expanded="true" />
-            <element signature="e#246420#246421#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/course_crud/course_create/CourseCreateDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/attendance_crud/attendance_create/AttendanceCreateDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/admin_crud/admin_create/AdminCreateDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_list_show/SubjectListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_subject_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_list_show/SubjectListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/subject_crud/subject_list_show/SubjectViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/ElectionCrudListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/StudentCrudListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-508">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="221">
+          <caret line="36" column="31" selection-end-line="145" />
           <folding>
-            <element signature="e#4325#4367#1" />
-            <element signature="e#4349#4350#0" expanded="true" />
             <element signature="method#showConfirmationDialog#0;class#StudentListAdapter#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/nfc_tech_filter.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/b9ebb04df2cb0cad4419af3c658690bc82aa5706/fragment-1.1.0-sources.jar!/androidx/fragment/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="836" column="27" selection-start-line="836" selection-start-column="27" selection-end-line="836" selection-end-column="27" />
-          <folding>
-            <element signature="e#31417#31418#0" expanded="true" />
-            <element signature="e#31471#31472#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="20" column="16" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/servertransaction/TransactionExecutor.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_list_show/ElectionViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/servertransaction/ResumeActivityItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="3846" selection-start-line="3846" selection-end-line="3846" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/Instrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1417" column="13" selection-start-line="1417" selection-start-column="13" selection-end-line="1417" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="7325" selection-start-line="7325" selection-end-line="7325" />
-          <folding>
-            <element signature="e#301413#301414#0" expanded="true" />
-            <element signature="e#301456#301457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/MessageQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/nfc/NfcAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_subjects.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#361#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/mifare_fragment.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/nfc_tech_filter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mifareReader/MifareActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="70" selection-start-column="70" selection-end-column="70" />
+        <state relative-caret-position="101">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_student_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#1008#1026#0" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_subject_list.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/ElectionListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_student_info.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_taken_subject.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_student_card_view.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mifare_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_student_tab.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="36" />
+        <state relative-caret-position="272">
+          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_create/StudentCreateDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
+        <state relative-caret-position="211">
+          <caret line="36" column="25" lean-forward="true" selection-end-line="299" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3588#9845#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tabsStudentActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_list_show/ElectionListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_list_show/ElectionListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_create/ElectionCreateDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1239,117 +1323,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="236">
+          <caret line="65" column="43" lean-forward="true" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tabsStudentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tabs_student.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_subject_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainTabs/tab1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/mainMenu/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        <state relative-caret-position="34">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_election_list.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/app/AppCompatActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_admin_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_create_dialog.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mifare_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_security_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#781#822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_course_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="e#2503#2528#0" expanded="true" />
+            <element signature="e#3273#3288#0" expanded="true" />
+            <element signature="e#4025#4040#0" expanded="true" />
+            <element signature="e#4797#4817#0" expanded="true" />
+            <element signature="e#5560#5576#0" expanded="true" />
+            <element signature="e#6316#6333#0" expanded="true" />
+            <element signature="e#7076#7094#0" expanded="true" />
+            <element signature="e#7836#7853#0" expanded="true" />
+            <element signature="e#8584#8605#0" expanded="true" />
+            <element signature="e#9317#9330#0" expanded="true" />
+            <element signature="e#10043#10061#0" expanded="true" />
+            <element signature="e#10780#10799#0" expanded="true" />
+            <element signature="e#12409#12428#0" expanded="true" />
+            <element signature="e#13156#13175#0" expanded="true" />
+            <element signature="e#13891#13904#0" expanded="true" />
+            <element signature="e#14623#14644#0" expanded="true" />
+            <element signature="e#16236#16249#0" expanded="true" />
+            <element signature="e#16976#16996#0" expanded="true" />
+            <element signature="e#17280#17303#0" expanded="true" />
+            <element signature="e#17685#17708#0" expanded="true" />
+            <marker date="1581980209032" expanded="true" signature="421:1074" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_student_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="317">
+          <caret line="968" selection-start-line="968" selection-end-line="968" />
           <folding>
-            <element signature="e#1037#1055#0" expanded="true" />
+            <element signature="e#4987#29721#0" />
           </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_list_show/StudentListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/database/sqlite/SQLiteOpenHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="295" column="26" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mifare.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/StudentQueryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3347">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/database/DatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <element signature="e#1092#1110#0" expanded="true" />
-            <element signature="e#1332#1354#0" expanded="true" />
-            <element signature="e#2365#2398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/tabowa/rfid_app/ExampleInstrumentedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
         </state>
       </provider>
     </entry>

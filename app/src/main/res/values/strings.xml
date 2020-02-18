@@ -944,4 +944,28 @@
     <string name="action_aoi">NYI</string>
 
 
+    <!-- TODO: course info -->
+    <string name="course_name">Course name</string>
+    <string name="course_reg_number">Registration number</string>
+    <string name="course_program">Program</string>
+    <string name="course_category">Category</string>
+    <string name="course_session">Session</string>
+    <string name="course_title">Course title</string>
+    <string name="course__code">Course code</string>
+    <string name="course_units">Units</string>
+
+
+    <!-- TODO: course info -->
+    <string name="admin_regno">Registration Number</string>
+    <string name="admin_session">Session</string>
+    <string name="admin_program">Program</string>
+    <string name="admin_category">Category</string>
+    <string name="admin_date_payment">Date of payment</string>
+    <string name="admin_mode_of_payment">Mode of payment</string>
+    <string name="admin_amount_paid">Amount paid</string>
+    <string name="admin_purpose_payment">Purpose of payment</string>
+
+    <!-- TODO: course info -->
+
+
 </resources>

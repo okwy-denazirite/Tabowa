@@ -33,7 +33,6 @@ public class StudentCreateDialogFragment extends DialogFragment implements View.
 
     private static StudentCrudListener studentCrudListener;
 
-
     private ImageView photoimageView;
     private EditText nameEditText;
     private EditText registrationEditText;

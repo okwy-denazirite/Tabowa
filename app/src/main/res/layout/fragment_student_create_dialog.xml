@@ -30,6 +30,7 @@
             app:layout_constraintTop_toBottomOf="@+id/studentimageView"
             style="@style/TextLabel"
             >
+
             <EditText
                 android:id="@+id/studentNameEditText"
                 android:layout_width="match_parent"

@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.tabowa.rfid_app.R;
 import com.tabowa.rfid_app.features.student_crud.student_list_show.StudentListActivity;
+import com.tabowa.rfid_app.mainTabs.tabsStudentActivity;
 
 
 public class MainMenu extends AppCompatActivity {
@@ -40,6 +41,8 @@ public class MainMenu extends AppCompatActivity {
     }
 
     public void onOpenElection(View view) {
+        Intent intent = new Intent(MainMenu.this, tabsStudentActivity.class);
+        startActivity(intent);
     }
 
     public void onOpenNYI(View view) {

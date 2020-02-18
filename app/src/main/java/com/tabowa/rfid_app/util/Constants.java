@@ -32,8 +32,6 @@ public class Constants {
     public static final String STUDENT_MEDICALNO = "medical_no";
 
 
-
-
     //column names of subject table
     public static final String TABLE_SUBJECT = "subject";
     public static final String SUBJECT_ID = "_id";
@@ -99,7 +97,7 @@ public class Constants {
     public static final String MEDICAL_NAME = "name";
     public static final String MEDICAL_MEDICAL_CARD_NUMBER = "medical_card_number";
     public static final String MEDICAL_BLOOD_GROUP = "blood_group";
-    public static final String MEDICAL_CONDITIONS = "blood_group";
+    public static final String MEDICAL_CONDITIONS = "condition";
 //    public static final String MEDICAL_TUBERCULOSIS = "tuberculosis";
 //    public static final String MEDICAL_EPILEPSY = "epilepsy";
 //    public static final String MEDICAL_DIABETES = "diabetes";
@@ -148,13 +146,25 @@ public class Constants {
 //    public static final String SECURITY_ACQ = "acq";
 
 
+    // attendance data
+    public static final String TABLE_ATTENDANCE = "attendance";
+    public static final String  ATTENDANCE_REGISTRATION_NUMBER = "registration_number";
+    public static final String  ATTENDANCE_PROGRAM = "program";
+    public static final String  ATTENDANCE_CATEGORY = "ctergory";
+    public static final String  ATTENDANCE_SESSION = "session";
+    public static final String  ATTENDANCE_SEMESTER = "semester";
+    public static final String  ATTENDANCE_COURSE_TITLE = "course_title";
+    public static final String  ATTENDANCE_COURSE_CODE = "course_code";
+    public static final String  ATTENDANCE_ATTENDANCE = "attendace";
+    public static final String  ATTENDANCE_DATE_OF_ATTENDANCE = "date_attendance";
 
 
-
-
-
-    //column names of voting table
+    // electoin data
     public static final String TABLE_ELECTION = "election";
+    public static final String  ELECTION_REGISTRATION_NUMBER = "registration_number";
+    public static final String  ELECTION_CONTESTANT_NAME = "contestant_name";
+    public static final String  ELECTION_POSITION_CONTESTANT_VIED_FOR = "position";
+    public static final String  ELECTION_DATE_OF_ELECTION = "election_date";
     public static final String ELECTION_CLEARANCE_STATUS = "clearance_status";
     public static final String ELECTION_VOTING_STATUS = "voting_status";
 
