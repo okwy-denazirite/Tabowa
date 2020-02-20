@@ -965,7 +965,52 @@
     <string name="admin_amount_paid">Amount paid</string>
     <string name="admin_purpose_payment">Purpose of payment</string>
 
-    <!-- TODO: course info -->
+    <!-- TODO: grade info -->
+    <string name="grade_regno">Registration Number</string>
+    <string name="grade_program">Program</string>
+    <string name="grade_category">Category</string>
+    <string name="grade_session">Session</string>
+    <string name="grade_semester">Semester</string>
+    <string name="grade_cousrse_title">Cousrse title</string>
+    <string name="grade_course_code">Cousrse code</string>
+    <string name="grade_units">Units</string>
+    <string name="grade_class_attendance">Class attendance</string>
+    <string name="grade_score">Score</string>
+    <string name="grade_examination">Examination</string>
+    <string name="grade_total">Total</string>
+    <string name="grade_grade">Grade</string>
+
+
+    <!-- TODO: security info -->
+    <string name="security_registration_number">Registration Number</string>
+    <string name="security_wanted">Wanted</string>
+    <string name="wanted_date">Wanted date</string>
+    <string name="wanted_acquitted">Acquitted</string>
+    <string name="wanted_close_investigation_date">Close investigation date</string>
+    <string name="wanted_crime_name">Crime name</string>
+    <string name="wanted_num_registerd_offences">Num registerd offences</string>
+    <string name="wanted_list_of_crimes">List of crimes</string>
+    <string name="wanted_date_of_arrest">Date of arrest</string>
+
+
+    <!-- TODO: attendance info -->
+    <string name="attendance_registration_number">Registration Number</string>
+    <string name="attendance_program">Program</string>
+    <string name="attendance_category">Category</string>
+    <string name="attendance_session">Session</string>
+    <string name="attendance_semester">Semester</string>
+    <string name="attendance_course_title">Course title</string>
+    <string name="attendance_course_code">Course code</string>
+    <string name="attendance_attendace">Attendace</string>
+    <string name="attendance_date_attendance">Date of attendace</string>
+
+    <!-- TODO: electoin info -->
+    <string name="electoin_registration_number">Registration Number</string>
+    <string name="electoin_contestant_name">Contestant name</string>
+    <string name="election_position">Position</string>
+    <string name="election_date">Election date</string>
+    <string name="election_clearance_status">Clearance status</string>
+    <string name="election_voting_status">Voting status</string>
 
 
 </resources>

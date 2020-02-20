@@ -22,7 +22,7 @@
 <!--            app:layout_constraintTop_toTopOf="parent" />-->
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/courseEditTextLayout"
+            android:id="@+id/courseRegNoLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -32,328 +32,122 @@
             >
 
             <EditText
-                android:id="@+id/courseNameEditText"
+                android:id="@+id/courseRegNoEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/student_name"
-                android:inputType="textPersonName"
+                android:hint="@string/course_reg_number"
+                android:inputType="text"
                 android:layout_marginTop="0dp"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentRegistrationEditTextLayout"
+            android:id="@+id/courseProgramLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentNameEditTextLayout">
+            app:layout_constraintTop_toBottomOf="@+id/courseRegNoLayout">
             <EditText
-                android:id="@+id/studentRegistrationEditText"
+                android:id="@+id/courseProgramEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/registration_no"
+                android:hint="@string/course_program"
                 android:inputType="number"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentPhoneEditTextLayout"
+            android:id="@+id/courseCategoryLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentRegistrationEditTextLayout">
+            app:layout_constraintTop_toBottomOf="@+id/courseProgramLayout">
 
             <EditText
-                android:id="@+id/studentPhoneEditText"
+                android:id="@+id/courseCategoryEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/phone"
+                android:hint="@string/course_category"
                 android:inputType="phone"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentEmailEditTextLayout"
+            android:id="@+id/courseSessionLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentPhoneEditTextLayout">
+            app:layout_constraintTop_toBottomOf="@+id/courseCategoryLayout">
 
             <EditText
-                android:id="@+id/studentEmailEditText"
+                android:id="@+id/courseSessionEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/email"
+                android:hint="@string/course_session"
                 android:inputType="textEmailAddress"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentDepartmentEditTextLayout"
+            android:id="@+id/courseSemesterLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentEmailEditTextLayout">
+            app:layout_constraintTop_toBottomOf="@+id/courseSessionLayout">
+
             <EditText
-                android:id="@+id/studentDepartmentEditText"
+                android:id="@+id/courseSemesterEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/department"
+                android:hint="@string/attendance_semester"
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentSchoolEditTextLayout"
+            android:id="@+id/courseTitleLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentDepartmentEditTextLayout">
+            app:layout_constraintTop_toBottomOf="@+id/courseSemesterLayout">
 
             <EditText
-                android:id="@+id/studentSchoolEditText"
+                android:id="@+id/courseTitleEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/school"
+                android:hint="@string/course_title"
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentProgramEditTextLayout"
+            android:id="@+id/courseCodeLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentSchoolEditTextLayout">
+            app:layout_constraintTop_toBottomOf="@+id/courseTitleLayout">
             <EditText
-                android:id="@+id/studentProgramEditText"
+                android:id="@+id/courseCodeEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/program"
+                android:hint="@string/course_title"
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentCategoryEditTextLayout"
+            android:id="@+id/courseUnitsLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentProgramEditTextLayout">
+            app:layout_constraintTop_toBottomOf="@+id/courseCodeLayout">
             <EditText
                 android:id="@+id/studentCategoryEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/category"
+                android:hint="@string/course_units"
                 android:inputType="text"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentSessionEditTextLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentCategoryEditTextLayout">
-            <EditText
-                android:id="@+id/studentSessionEditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/session"
-                android:inputType="text"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentBloodGroupLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentSessionEditTextLayout">
-            <EditText
-                android:id="@+id/studentBloodGroup"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/blood_group"
-                android:inputType="text"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentNOKLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentBloodGroupLayout">
-            <EditText
-                android:id="@+id/studentNOK"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/nok"
-                android:inputType="text"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentNOKAddrLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentNOKLayout">
-            <EditText
-                android:id="@+id/studentNOKAddr"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/nok_addr"
-                android:inputType="text"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentNOKPhoneLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentNOKAddrLayout">
-            <EditText
-                android:id="@+id/studentNOKPhone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/nok_phone"
-                android:inputType="number"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <Spinner
-            android:id="@+id/studentState"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:spinnerMode="dropdown"
-            android:entries="@array/state"
-            android:inputType="text"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentNOKPhoneLayout"/>
-
-        <Spinner
-            android:id="@+id/studentLGA"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:spinnerMode="dropdown"
-            android:entries="@array/lga"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentState"/>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentHomeTownLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentLGA">
-
-            <EditText
-                android:id="@+id/studentHomeTown"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/home_town"
-                android:inputType="text"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentHealthCardNoLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentHomeTownLayout">
-            <EditText
-                android:id="@+id/studentHealthCardNo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/health_no"
-                android:inputType="number"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentDOBLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentHealthCardNoLayout">
-            <EditText
-                android:id="@+id/studentDOB"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/dob"
-                android:inputType="text"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentExpiryDateLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentDOBLayout">
-            <EditText
-                android:id="@+id/studentExpiryDate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/expiry_date"
-                android:inputType="text"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <Spinner
-            android:id="@+id/studentGender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:spinnerMode="dropdown"
-            android:entries="@array/gender"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentExpiryDateLayout"/>
-
-        <!-- <EditText
-             android:id="@+id/studentGender"
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:hint="@string/gender"
-             android:inputType="text"
-             app:layout_constraintLeft_toLeftOf="parent"
-             app:layout_constraintRight_toRightOf="parent"
-             app:layout_constraintTop_toBottomOf="@+id/studentExpiryDateLayout">-->
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentNINLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentGender">
-            <EditText
-                android:id="@+id/studentNIN"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/nin"
-                android:inputType="number"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/studentMedicalCardNoLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentNINLayout">
-            <EditText
-                android:id="@+id/studentMedicalCardNo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/medical_no"
-                android:inputType="number"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
@@ -363,7 +157,7 @@
             android:text="@string/create_button"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@+id/cancelButton"
-            app:layout_constraintTop_toBottomOf="@+id/studentMedicalCardNoLayout"/>
+            app:layout_constraintTop_toBottomOf="@+id/courseUnitsLayout"/>
 
         <Button
             android:id="@+id/cancelButton"
@@ -372,7 +166,7 @@
             android:text="@string/cancel_button"
             app:layout_constraintLeft_toRightOf="@+id/createButton"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/studentMedicalCardNoLayout"/>
+            app:layout_constraintTop_toBottomOf="@+id/courseUnitsLayout"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

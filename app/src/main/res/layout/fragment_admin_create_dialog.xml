@@ -1,14 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".features.admin_crud.admin_create.AdminCreateDialogFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:padding="10dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/adminRegNoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            style="@style/TextLabel"
+            app:layout_constraintTop_toTopOf="parent"
+            >
 
-</FrameLayout>
+            <EditText
+                android:id="@+id/adminRegNoEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/admin_regno"
+                android:inputType="text"
+                android:layout_marginTop="0dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/adminProgramLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminRegNoLayout">
+            <EditText
+                android:id="@+id/adminProgramEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/admin_program"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/adminCategoryLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminProgramLayout">
+
+            <EditText
+                android:id="@+id/adminCategoryEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/admin_category"
+                android:inputType="phone"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/adminSessionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminCategoryLayout">
+
+            <EditText
+                android:id="@+id/adminSessionEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/admin_session"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/adminDatePaymentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminSessionLayout">
+
+            <EditText
+                android:id="@+id/adminSemesterEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/admin_date_payment"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/adminModeOfPaymentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminDatePaymentLayout">
+
+            <EditText
+                    android:id="@+id/adminModeOfPaymentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/course_title"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/adminAmountPaidLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminModeOfPaymentLayout">
+            <EditText
+                android:id="@+id/adminAmountPaidEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/course_title"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/adminPurposePaymentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminAmountPaidLayout">
+            <EditText
+                android:id="@+id/adminPurposePaymentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/course_units"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/create_button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/cancelButton"
+            app:layout_constraintTop_toBottomOf="@+id/adminPurposePaymentLayout"/>
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_button"
+            app:layout_constraintLeft_toRightOf="@+id/createButton"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminPurposePaymentLayout"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

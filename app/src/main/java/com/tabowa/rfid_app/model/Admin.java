@@ -7,22 +7,10 @@ public class Admin {
     private String program;
     private String category;
     private String session;
-    private String semester;
-    private String courseTitle;
-    private String courseCode;
-    private String units;
-
-    public Admin(int id, String regNo, String program, String category, String session, String semester, String courseTitle, String courseCode, String units) {
-        this.id = id;
-        this.regNo = regNo;
-        this.program = program;
-        this.category = category;
-        this.session = session;
-        this.semester = semester;
-        this.courseTitle = courseTitle;
-        this.courseCode = courseCode;
-        this.units = units;
-    }
+    private String datePayment;
+    private String modeOfPayment;
+    private String amountPaid;
+    private String purposePayment;
 
     public int getId() {
         return id;
@@ -64,35 +52,35 @@ public class Admin {
         this.session = session;
     }
 
-    public String getSemester() {
-        return semester;
+    public String getDatePayment() {
+        return datePayment;
     }
 
-    public void setSemester(String semester) {
-        this.semester = semester;
+    public void setDatePayment(String datePayment) {
+        this.datePayment = datePayment;
     }
 
-    public String getCourseTitle() {
-        return courseTitle;
+    public String getModeOfPayment() {
+        return modeOfPayment;
     }
 
-    public void setCourseTitle(String courseTitle) {
-        this.courseTitle = courseTitle;
+    public void setModeOfPayment(String modeOfPayment) {
+        this.modeOfPayment = modeOfPayment;
     }
 
-    public String getCourseCode() {
-        return courseCode;
+    public String getAmountPaid() {
+        return amountPaid;
     }
 
-    public void setCourseCode(String courseCode) {
-        this.courseCode = courseCode;
+    public void setAmountPaid(String amountPaid) {
+        this.amountPaid = amountPaid;
     }
 
-    public String getUnits() {
-        return units;
+    public String getPurposePayment() {
+        return purposePayment;
     }
 
-    public void setUnits(String units) {
-        this.units = units;
+    public void setPurposePayment(String purposePayment) {
+        this.purposePayment = purposePayment;
     }
 }
