@@ -43,14 +43,14 @@ public class Constants {
     //column names of course registration table
     public static final String TABLE_COURSE = "course";
     public static final String COURSE_ID = "_id";
-    public static final String REGISTRATION_NUMBER = "reg_no";
-    public static final String PROGRAM = "program";
-    public static final String CATEGORY = "category";
-    public static final String SESSION = "session";
-    public static final String SEMESTER = "semester";
+    public static final String COURSE_REGISTRATION_NUMBER = "reg_no";
+    public static final String COURSE_PROGRAM = "program";
+    public static final String COURSE_CATEGORY = "category";
+    public static final String COURSE_SESSION = "session";
+    public static final String COURSE_SEMESTER = "semester";
     public static final String COURSE_TITLE = "course_title";
     public static final String COURSE_CODE = "course_code";
-    public static final String UNITS = "units";
+    public static final String COURSE_UNITS = "units";
 
 
 //    public static final String COURSE_NAME = "name";
@@ -129,14 +129,15 @@ public class Constants {
 
     //column names of security table
     public static final String TABLE_SECURUTY = "security";
-    public static final String WANTED_STATUS = "wanted";
-    public static final String DATE_OF_BEING_WANTED = "wanted_date";
-    public static final String DATE_OF_BEING_ACQUITTED = "acquitted";
-    public static final String DATE_OF_CLOSE_OF_INVESTIGATION = "close_investigation_date";
-    public static final String NAME_OF_CRIME_CONVICTED_ON = "crime_name";
-    public static final String NUMBER_OF_REGISTERED_OFFENCES = "num_registerd_offences";
-    public static final String LIST_OF_CRIMES = "list_of_crimes";
-    public static final String DATE_OF_LAST_ARREST = "date_of_arrest";
+    public static final String SECURUTY_REGISTRATION_NUMBER = "registration_number";
+    public static final String SECURUTY_WANTED_STATUS = "wanted";
+    public static final String SECURUTY_DATE_OF_BEING_WANTED = "wanted_date";
+    public static final String SECURUTY_DATE_OF_BEING_ACQUITTED = "acquitted";
+    public static final String SECURUTY_DATE_OF_CLOSE_OF_INVESTIGATION = "close_investigation_date";
+    public static final String SECURUTY_NAME_OF_CRIME_CONVICTED_ON = "crime_name";
+    public static final String SECURUTY_NUMBER_OF_REGISTERED_OFFENCES = "num_registerd_offences";
+    public static final String SECURUTY_LIST_OF_CRIMES = "list_of_crimes";
+    public static final String SECURUTY_DATE_OF_LAST_ARREST = "date_of_arrest";
 //    public static final String SECURITY_WANTED = "wanted";
 //    public static final String SECURITY_CRIME = "crime";
 //    public static final String SECURITY_SP = "sp";

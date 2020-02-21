@@ -7,22 +7,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="10dp">
-
-        <!--        <ImageView-->
-        <!--            android:id="@+id/studentimageView"-->
-        <!--            android:layout_width="100dp"-->
-        <!--            android:layout_height="100dp"-->
-        <!--            android:src="@drawable/user"-->
-        <!--            android:layout_marginTop="20dp"-->
-        <!--            android:layout_marginBottom="10dp"-->
-        <!--            android:layout_gravity="center"-->
-        <!--            android:contentDescription="@string/cross_image_content_description"-->
-        <!--            app:layout_constraintLeft_toLeftOf="parent"-->
-        <!--            app:layout_constraintRight_toRightOf="parent"-->
-        <!--            app:layout_constraintTop_toTopOf="parent" />-->
-
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/attendanceRegNoLayout"
+            android:id="@+id/adminRegNoLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -32,88 +18,88 @@
             >
 
             <EditText
-                android:id="@+id/attendanceRegNoEditText"
+                android:id="@+id/adminRegNoEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/course_reg_number"
+                android:hint="@string/admin_regno"
                 android:inputType="text"
                 android:layout_marginTop="0dp"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/attendanceProgramLayout"
+            android:id="@+id/adminProgramLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/attendanceRegNoLayout">
+            app:layout_constraintTop_toBottomOf="@+id/adminRegNoLayout">
             <EditText
-                android:id="@+id/attendanceProgramEditText"
+                android:id="@+id/adminProgramEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/grade_program"
+                android:hint="@string/admin_program"
                 android:inputType="number"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/attendanceCategoryLayout"
+            android:id="@+id/adminCategoryLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/attendanceProgramLayout">
+            app:layout_constraintTop_toBottomOf="@+id/adminProgramLayout">
 
             <EditText
-                android:id="@+id/attendanceCategoryEditText"
+                android:id="@+id/adminCategoryEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/grade_category"
+                android:hint="@string/admin_category"
                 android:inputType="phone"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/attendanceSessionLayout"
+            android:id="@+id/adminSessionLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/attendanceCategoryLayout">
+            app:layout_constraintTop_toBottomOf="@+id/adminCategoryLayout">
 
             <EditText
-                android:id="@+id/attendanceSessionEditText"
+                android:id="@+id/adminSessionEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/grade_session"
+                android:hint="@string/admin_session"
                 android:inputType="textEmailAddress"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/attendanceSemesterLayout"
+            android:id="@+id/adminDatePaymentLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/attendanceSessionLayout">
+            app:layout_constraintTop_toBottomOf="@+id/adminSessionLayout">
 
             <EditText
-                android:id="@+id/attendanceSemesterEditText"
+                android:id="@+id/adminSemesterEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/attendance_semester"
+                android:hint="@string/admin_date_payment"
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/attendanceTitleLayout"
+            android:id="@+id/adminModeOfPaymentLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/attendanceSemesterLayout">
+            app:layout_constraintTop_toBottomOf="@+id/adminDatePaymentLayout">
 
             <EditText
-                android:id="@+id/attendanceTitleEditText"
+                    android:id="@+id/adminModeOfPaymentEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/course_title"
@@ -121,51 +107,34 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/attendanceCodeLayout"
+            android:id="@+id/adminAmountPaidLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/attendanceTitleLayout">
+            app:layout_constraintTop_toBottomOf="@+id/adminModeOfPaymentLayout">
             <EditText
-                android:id="@+id/attendanceCodeEditText"
+                android:id="@+id/adminAmountPaidEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/course_code"
+                android:hint="@string/course_title"
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/attendanceClassAttendanceLayout"
+            android:id="@+id/adminPurposePaymentLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/attendanceCodeLayout">
+            app:layout_constraintTop_toBottomOf="@+id/adminAmountPaidLayout">
             <EditText
-                android:id="@+id/attendanceClassAttendanceEditText"
+                android:id="@+id/adminPurposePaymentEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/grade_class_attendance"
+                android:hint="@string/course_units"
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/attendanceDateofAttendanceLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/attendanceClassAttendanceLayout">
-            <EditText
-                android:id="@+id/attendanceDateofAttendanceEditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/attendance_date_attendance"
-                android:inputType="text"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-
 
         <Button
             android:id="@+id/createButton"
@@ -174,7 +143,7 @@
             android:text="@string/create_button"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@+id/cancelButton"
-            app:layout_constraintTop_toBottomOf="@+id/attendanceDateofAttendanceLayout"/>
+            app:layout_constraintTop_toBottomOf="@+id/adminPurposePaymentLayout"/>
 
         <Button
             android:id="@+id/cancelButton"
@@ -183,7 +152,7 @@
             android:text="@string/cancel_button"
             app:layout_constraintLeft_toRightOf="@+id/createButton"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/attendanceDateofAttendanceLayout"/>
+            app:layout_constraintTop_toBottomOf="@+id/adminPurposePaymentLayout"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

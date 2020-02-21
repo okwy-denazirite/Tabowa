@@ -41,7 +41,17 @@
     <string name="expiry_date">Expiry Date</string>
     <!--<string name="gender">Gender</string>-->
     <string name="nin">NIN</string>
+
     <string name="medical_no">Medical Card No</string>
+    <string name="medical_blood_group">Blood Group</string>
+    <string name="medical_condition">Medical Conditions</string>
+    <string name="medical_allergy">Allegies</string>
+    <string name="medical_history">Medical History</string>
+    <string name="medical_attendant_doctor">Attendant Doctor's Name</string>
+    <string name="medical_attendant_doctor_phone">Attendant Doctor's Phone</string>
+
+
+
     <string name="form_pick_photos">Select phote</string>
 
 
@@ -984,13 +994,13 @@
     <!-- TODO: security info -->
     <string name="security_registration_number">Registration Number</string>
     <string name="security_wanted">Wanted</string>
-    <string name="wanted_date">Wanted date</string>
-    <string name="wanted_acquitted">Acquitted</string>
-    <string name="wanted_close_investigation_date">Close investigation date</string>
-    <string name="wanted_crime_name">Crime name</string>
-    <string name="wanted_num_registerd_offences">Num registerd offences</string>
-    <string name="wanted_list_of_crimes">List of crimes</string>
-    <string name="wanted_date_of_arrest">Date of arrest</string>
+    <string name="security_wanted_date">Wanted date</string>
+    <string name="security_wanted_acquitted">Acquitted</string>
+    <string name="security_wanted_close_investigation_date">Close investigation date</string>
+    <string name="security_wanted_crime_name">Crime name</string>
+    <string name="security_wanted_num_registerd_offences">Num registerd offences</string>
+    <string name="security_wanted_list_of_crimes">List of crimes</string>
+    <string name="security_wanted_date_of_arrest">Date of arrest</string>
 
 
     <!-- TODO: attendance info -->

@@ -11,10 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e68a45c4-2aa3-4184-93d0-d8e1af375a70" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_admin_create_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_admin_create_dialog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_course_create_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_course_create_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_create_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_create_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_election_create_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_election_create_dialog.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_grade_create_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_grade_create_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_medical_create_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_medical_create_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_security_create_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_security_create_dialog.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,23 +47,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding>
-                <element signature="e#781#822#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_course_create_dialog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" lean-forward="true" selection-end-line="171" selection-end-column="40" />
+            <state relative-caret-position="255">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#1709#1736#0" expanded="true" />
                 <element signature="e#2528#2552#0" expanded="true" />
@@ -78,10 +70,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_student_update_dialog.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_update_dialog.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="1008" column="53" selection-start-line="1008" selection-start-column="53" selection-end-line="1008" selection-end-column="53" />
+            <state relative-caret-position="106">
+              <caret line="995" column="27" selection-start-line="995" selection-start-column="27" selection-end-line="995" selection-end-column="27" />
               <folding>
                 <element signature="e#4987#29721#0" />
               </folding>
@@ -91,117 +113,101 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_security_create_dialog.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mifare_fragment.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_admin_create_dialog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="150" column="33" selection-end-line="157" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="80" column="90" selection-start-line="80" selection-start-column="90" selection-end-line="80" selection-end-column="90" />
               <folding>
-                <element signature="e#1052#1073#0" expanded="true" />
-                <element signature="e#2624#2648#0" expanded="true" />
-                <element signature="e#2601#2625#0" expanded="true" />
-                <element signature="e#4115#4139#0" expanded="true" />
-                <element signature="e#4107#4135#0" expanded="true" />
-                <element signature="e#5625#5647#0" expanded="true" />
-                <element signature="e#6361#6383#0" expanded="true" />
-                <element signature="e#7102#7124#0" expanded="true" />
-                <element signature="e#7406#7429#0" expanded="true" />
-                <element signature="e#7802#7825#0" expanded="true" />
+                <element signature="e#1817#1855#0" expanded="true" />
+                <element signature="e#2643#2668#0" expanded="true" />
+                <element signature="e#3366#3390#0" expanded="true" />
+                <element signature="e#4185#4221#0" expanded="true" />
+                <element signature="e#4990#5030#0" expanded="true" />
+                <element signature="e#5767#5797#0" expanded="true" />
+                <element signature="e#11119#11142#0" expanded="true" />
+                <element signature="e#11514#11537#0" expanded="true" />
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_grade_create_dialog.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
-              <folding>
-                <element signature="e#1811#1838#0" expanded="true" />
-                <element signature="e#2624#2648#0" expanded="true" />
-                <element signature="e#3375#3400#0" expanded="true" />
-                <element signature="e#4125#4149#0" expanded="true" />
-                <element signature="e#4886#4915#0" expanded="true" />
-                <element signature="e#5615#5637#0" expanded="true" />
-                <element signature="e#6348#6369#0" expanded="true" />
-                <element signature="e#7112#7134#0" expanded="true" />
-                <element signature="e#7416#7439#0" expanded="true" />
-                <element signature="e#7812#7835#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Admin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-                <element signature="e#1265#1266#0" expanded="true" />
-                <element signature="e#1323#1324#0" expanded="true" />
-                <element signature="e#1373#1374#0" expanded="true" />
-                <element signature="e#1410#1411#0" expanded="true" />
-                <element signature="e#1443#1444#0" expanded="true" />
-                <element signature="e#1495#1496#0" expanded="true" />
-                <element signature="e#1539#1540#0" expanded="true" />
-                <element signature="e#1580#1581#0" expanded="true" />
-                <element signature="e#1617#1618#0" expanded="true" />
-                <element signature="e#1677#1678#0" expanded="true" />
-                <element signature="e#1729#1730#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_election_create_dialog.xml">
-          <provider selected="true" editor-type-id="text-editor" />
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_create_dialog.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="186" selection-end-line="188" selection-end-column="40" />
+              <folding>
+                <element signature="e#1811#1838#0" expanded="true" />
+                <element signature="e#2619#2642#0" expanded="true" />
+                <element signature="e#3366#3390#0" expanded="true" />
+                <element signature="e#4112#4135#0" expanded="true" />
+                <element signature="e#4869#4898#0" expanded="true" />
+                <element signature="e#5615#5637#0" expanded="true" />
+                <element signature="e#6348#6369#0" expanded="true" />
+                <element signature="e#7101#7133#0" expanded="true" />
+                <element signature="e#8008#8044#0" expanded="true" />
+                <element signature="e#11119#11142#0" expanded="true" />
+                <element signature="e#11514#11537#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_grade_create_dialog.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="245" column="26" selection-end-line="246" selection-end-column="40" />
+              <folding>
+                <element signature="e#1811#1838#0" expanded="true" />
+                <element signature="e#2619#2642#0" expanded="true" />
+                <element signature="e#3366#3390#0" expanded="true" />
+                <element signature="e#4112#4135#0" expanded="true" />
+                <element signature="e#4869#4898#0" expanded="true" />
+                <element signature="e#5615#5637#0" expanded="true" />
+                <element signature="e#6348#6369#0" expanded="true" />
+                <element signature="e#7101#7133#0" expanded="true" />
+                <element signature="e#7845#7866#0" expanded="true" />
+                <element signature="e#8602#8629#0" expanded="true" />
+                <element signature="e#9348#9369#0" expanded="true" />
+                <element signature="e#10082#10103#0" expanded="true" />
+                <element signature="e#10746#10767#0" expanded="true" />
+                <element signature="e#11049#11072#0" expanded="true" />
+                <element signature="e#11444#11467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_election_create_dialog.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="140" column="80" selection-start-line="140" selection-start-column="80" selection-end-line="140" selection-end-column="80" />
+              <folding>
+                <element signature="e#1817#1844#0" expanded="true" />
+                <element signature="e#2648#2671#0" expanded="true" />
+                <element signature="e#3411#3438#0" expanded="true" />
+                <element signature="e#4163#4186#0" expanded="true" />
+                <element signature="e#4940#4975#0" expanded="true" />
+                <element signature="e#5723#5755#0" expanded="true" />
+                <element signature="e#9112#9135#0" expanded="true" />
+                <element signature="e#9523#9546#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -219,8 +225,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>permission</find>
-      <find>REQUEST</find>
       <find>O</find>
       <find>onreq</find>
       <find>onActivityResult</find>
@@ -240,7 +244,6 @@
       <find>windowActionBar</find>
       <find>insert</find>
       <find>android-er</find>
-      <find>medical</find>
       <find>onitem</find>
       <find>`</find>
       <find>Security</find>
@@ -249,6 +252,9 @@
       <find>student</find>
       <find>Student</find>
       <find>hassa</find>
+      <find>medical</find>
+      <find>securi</find>
+      <find>course</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;&quot;</replace>
@@ -273,11 +279,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab1.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/model/Student.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_update/StudentUpdateDialogFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/database/StudentQueryImplementation.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_student_card_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentViewHolder.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hellohasan/sqlite_multiple_three_tables_crud/features/student_crud/student_list_show/StudentListAdapter.java" />
@@ -303,7 +304,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Security.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/medical_crud/MedicalCrudListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/grade_crud/Grade.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/student_crud/student_create/StudentCreateDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/security_crud/security_create/SecurityCreateDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/medical_crud/medical_create/MedicalCreateDialogFragment.java" />
@@ -319,11 +319,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/election_crud/election_create/ElectionCreateDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_course_create_dialog.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Admin.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_admin_create_dialog.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_grade_create_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_medical_create_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_security_create_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_create_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_election_create_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_update_dialog.xml" />
       </list>
     </option>
   </component>
@@ -487,119 +493,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="election_crud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="election_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="election_create" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="election_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="election_list_show" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="security_crud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="security_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="security_create" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="student_crud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="student_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="student_create" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="student_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="student_list_show" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
-              <item name="mainTabs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UwabisFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UwabisFinal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rfid_app" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -666,7 +559,7 @@
     <property name="project.structure.last.edited" value="Build Variants" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1580263400861" />
   </component>
   <component name="PsdUISettings">
@@ -853,7 +746,7 @@
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.31694403" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.2806354" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="7" />
@@ -861,7 +754,7 @@
       <window_info anchor="bottom" id="Android Profiler" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5030257" side_tool="true" weight="0.32943144" />
       <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.4969743" weight="0.327787" />
-      <window_info anchor="bottom" id="Build" order="3" visible="true" weight="0.29118136" />
+      <window_info active="true" anchor="bottom" id="Build" order="3" visible="true" weight="0.29118136" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3294509" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.327787" />
       <window_info anchor="bottom" id="Message" order="6" />
@@ -873,7 +766,7 @@
       <window_info anchor="bottom" id="Debug" order="12" weight="0.39933443" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="right" id="Preview" order="2" visible="true" weight="0.2602118" />
+      <window_info anchor="right" id="Preview" order="2" visible="true" weight="0.2602118" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
@@ -1059,31 +952,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Attendance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/model/Election.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1118,10 +986,6 @@
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_medical_create_dialog.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/features/security_crud/security_create/SecurityCreateDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1384,40 +1248,7 @@
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_create_dialog.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mifare_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="1008" column="53" selection-start-line="1008" selection-start-column="53" selection-end-line="1008" selection-end-column="53" />
-          <folding>
-            <element signature="e#4987#29721#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_security_create_dialog.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#781#822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_election_create_dialog.xml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
     </entry>
@@ -1486,10 +1317,128 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_medical_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="149" column="84" selection-end-line="152" selection-end-column="40" />
+          <folding>
+            <element signature="e#1839#1859#0" expanded="true" />
+            <element signature="e#2664#2693#0" expanded="true" />
+            <element signature="e#3427#3454#0" expanded="true" />
+            <element signature="e#4184#4209#0" expanded="true" />
+            <element signature="e#4936#4961#0" expanded="true" />
+            <element signature="e#5752#5781#0" expanded="true" />
+            <element signature="e#6524#6553#0" expanded="true" />
+            <element signature="e#8382#8405#0" expanded="true" />
+            <element signature="e#8777#8800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="995" column="27" selection-start-line="995" selection-start-column="27" selection-end-line="995" selection-end-column="27" />
+          <folding>
+            <element signature="e#4987#29721#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_security_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="80" column="90" selection-start-line="80" selection-start-column="90" selection-end-line="80" selection-end-column="90" />
+          <folding>
+            <element signature="e#1817#1855#0" expanded="true" />
+            <element signature="e#2643#2668#0" expanded="true" />
+            <element signature="e#3366#3390#0" expanded="true" />
+            <element signature="e#4185#4221#0" expanded="true" />
+            <element signature="e#4990#5030#0" expanded="true" />
+            <element signature="e#5767#5797#0" expanded="true" />
+            <element signature="e#11119#11142#0" expanded="true" />
+            <element signature="e#11514#11537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_grade_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="245" column="26" selection-end-line="246" selection-end-column="40" />
+          <folding>
+            <element signature="e#1811#1838#0" expanded="true" />
+            <element signature="e#2619#2642#0" expanded="true" />
+            <element signature="e#3366#3390#0" expanded="true" />
+            <element signature="e#4112#4135#0" expanded="true" />
+            <element signature="e#4869#4898#0" expanded="true" />
+            <element signature="e#5615#5637#0" expanded="true" />
+            <element signature="e#6348#6369#0" expanded="true" />
+            <element signature="e#7101#7133#0" expanded="true" />
+            <element signature="e#7845#7866#0" expanded="true" />
+            <element signature="e#8602#8629#0" expanded="true" />
+            <element signature="e#9348#9369#0" expanded="true" />
+            <element signature="e#10082#10103#0" expanded="true" />
+            <element signature="e#10746#10767#0" expanded="true" />
+            <element signature="e#11049#11072#0" expanded="true" />
+            <element signature="e#11444#11467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="186" selection-end-line="188" selection-end-column="40" />
+          <folding>
+            <element signature="e#1811#1838#0" expanded="true" />
+            <element signature="e#2619#2642#0" expanded="true" />
+            <element signature="e#3366#3390#0" expanded="true" />
+            <element signature="e#4112#4135#0" expanded="true" />
+            <element signature="e#4869#4898#0" expanded="true" />
+            <element signature="e#5615#5637#0" expanded="true" />
+            <element signature="e#6348#6369#0" expanded="true" />
+            <element signature="e#7101#7133#0" expanded="true" />
+            <element signature="e#8008#8044#0" expanded="true" />
+            <element signature="e#11119#11142#0" expanded="true" />
+            <element signature="e#11514#11537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_election_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="140" column="80" selection-start-line="140" selection-start-column="80" selection-end-line="140" selection-end-column="80" />
+          <folding>
+            <element signature="e#1817#1844#0" expanded="true" />
+            <element signature="e#2648#2671#0" expanded="true" />
+            <element signature="e#3411#3438#0" expanded="true" />
+            <element signature="e#4163#4186#0" expanded="true" />
+            <element signature="e#4940#4975#0" expanded="true" />
+            <element signature="e#5723#5755#0" expanded="true" />
+            <element signature="e#9112#9135#0" expanded="true" />
+            <element signature="e#9523#9546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tabowa/rfid_app/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_course_create_dialog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="true" selection-end-line="171" selection-end-column="40" />
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="e#1709#1736#0" expanded="true" />
             <element signature="e#2528#2552#0" expanded="true" />
@@ -1507,22 +1456,26 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_grade_create_dialog.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_student_update_dialog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
-          <folding>
-            <element signature="e#1811#1838#0" expanded="true" />
-            <element signature="e#2624#2648#0" expanded="true" />
-            <element signature="e#3375#3400#0" expanded="true" />
-            <element signature="e#4125#4149#0" expanded="true" />
-            <element signature="e#4886#4915#0" expanded="true" />
-            <element signature="e#5615#5637#0" expanded="true" />
-            <element signature="e#6348#6369#0" expanded="true" />
-            <element signature="e#7112#7134#0" expanded="true" />
-            <element signature="e#7416#7439#0" expanded="true" />
-            <element signature="e#7812#7835#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_student_create_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_attendance_update_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
