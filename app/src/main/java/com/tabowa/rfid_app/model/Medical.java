@@ -2,8 +2,8 @@ package com.tabowa.rfid_app.model;
 
 public class Medical {
 
-    private String registrationNumber;
-    private String name;
+    private int id;
+
     private String medicalCardNumber;
     private String bloodGroup;
     private String condition;
@@ -12,9 +12,8 @@ public class Medical {
     private String attendantDoctor;
     private String attendantDoctorPhone;
 
-    public Medical(String registrationNumber, String name, String medicalCardNumber, String bloodGroup, String condition, String allergy, String medicalHistory, String attendantDoctor, String attendantDoctorPhone) {
-        this.registrationNumber = registrationNumber;
-        this.name = name;
+    public Medical(int id, String medicalCardNumber, String bloodGroup, String condition, String allergy, String medicalHistory, String attendantDoctor, String attendantDoctorPhone) {
+        this.id = id;
         this.medicalCardNumber = medicalCardNumber;
         this.bloodGroup = bloodGroup;
         this.condition = condition;
@@ -24,20 +23,12 @@ public class Medical {
         this.attendantDoctorPhone = attendantDoctorPhone;
     }
 
-    public String getRegistrationNumber() {
-        return registrationNumber;
+    public int getId() {
+        return id;
     }
 
-    public void setRegistrationNumber(String registrationNumber) {
-        this.registrationNumber = registrationNumber;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getMedicalCardNumber() {

@@ -2,6 +2,7 @@ package com.tabowa.rfid_app.model;
 
 public class Grade {
 
+    private int id;
     private String gradeRegno;
     private String program;
     private String category;
@@ -16,7 +17,16 @@ public class Grade {
     private String total;
     private String grade;
 
-    public Grade(String gradeRegno, String program, String category, String session, String semester, String cousrseTitle, String courseCode, String units, String class_attendance, String score, String examination, String total, String grade) {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Grade(int id, String gradeRegno, String program, String category, String session, String semester, String cousrseTitle, String courseCode, String units, String class_attendance, String score, String examination, String total, String grade) {
+        this.id = id;
         this.gradeRegno = gradeRegno;
         this.program = program;
         this.category = category;

@@ -359,7 +359,7 @@
             android:id="@+id/createButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/create_button"
+            android:text="@string/update_button"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@+id/cancelButton"
             app:layout_constraintTop_toBottomOf="@+id/studentMedicalCardNoLayout"/>

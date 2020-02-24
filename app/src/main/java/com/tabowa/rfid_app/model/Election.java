@@ -2,6 +2,7 @@ package com.tabowa.rfid_app.model;
 
 public class Election {
 
+    private int id;
     private String registrationNumber;
     private String contestantName;
     private String position;
@@ -9,7 +10,16 @@ public class Election {
     private String clearanceStatus;
     private String votingStatus;
 
-    public Election(String registrationNumber, String contestantName, String position, String electionDate, String clearanceStatus, String votingStatus) {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Election(int id, String registrationNumber, String contestantName, String position, String electionDate, String clearanceStatus, String votingStatus) {
+        this.id = id;
         this.registrationNumber = registrationNumber;
         this.contestantName = contestantName;
         this.position = position;

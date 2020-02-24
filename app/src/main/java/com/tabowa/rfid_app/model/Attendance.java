@@ -2,6 +2,16 @@ package com.tabowa.rfid_app.model;
 
 public class Attendance {
 
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     private String registrationNumber;
     private String program;
     private String ctergory;
@@ -12,7 +22,8 @@ public class Attendance {
     private String attendace;
     private String dateAttendance;
 
-    public Attendance(String registrationNumber, String program, String ctergory, String session, String semester, String courseTitle, String courseCode, String attendace, String dateAttendance) {
+    public Attendance(int id, String registrationNumber, String program, String ctergory, String session, String semester, String courseTitle, String courseCode, String attendace, String dateAttendance) {
+        this.id = id;
         this.registrationNumber = registrationNumber;
         this.program = program;
         this.ctergory = ctergory;

@@ -75,6 +75,7 @@ public class Constants {
 
     //column names of student grade data table
     public static final String TABLE_GRADE = "grade";
+    public static final String GRADE_ID = "_id";
     public static final String  GRADE_REGISTRATION_NUMBER = "grade_regno";
     public static final String  GRADE_PROGRAM = "program";
     public static final String  GRADE_CATEGORY = "category";
@@ -93,6 +94,7 @@ public class Constants {
 
     //column names of medical information table
     public static final String TABLE_MEDICAL = "medical";
+    public static final String MEDICAL_ID = "_id";
     public static final String MEDICAL_REGISTRATION_NUMBER = "registration_number";
     public static final String MEDICAL_NAME = "name";
     public static final String MEDICAL_MEDICAL_CARD_NUMBER = "medical_card_number";
@@ -128,16 +130,16 @@ public class Constants {
 
 
     //column names of security table
-    public static final String TABLE_SECURUTY = "security";
-    public static final String SECURUTY_REGISTRATION_NUMBER = "registration_number";
-    public static final String SECURUTY_WANTED_STATUS = "wanted";
-    public static final String SECURUTY_DATE_OF_BEING_WANTED = "wanted_date";
-    public static final String SECURUTY_DATE_OF_BEING_ACQUITTED = "acquitted";
-    public static final String SECURUTY_DATE_OF_CLOSE_OF_INVESTIGATION = "close_investigation_date";
-    public static final String SECURUTY_NAME_OF_CRIME_CONVICTED_ON = "crime_name";
-    public static final String SECURUTY_NUMBER_OF_REGISTERED_OFFENCES = "num_registerd_offences";
-    public static final String SECURUTY_LIST_OF_CRIMES = "list_of_crimes";
-    public static final String SECURUTY_DATE_OF_LAST_ARREST = "date_of_arrest";
+    public static final String TABLE__SECURITY = "security";
+    public static final String SECURITY_ID = "_id";
+    public static final String SECURITY_WANTED_STATUS = "wanted";
+    public static final String SECURITY_DATE_OF_BEING_WANTED = "wanted_date";
+    public static final String SECURITY_DATE_OF_BEING_ACQUITTED = "acquitted";
+    public static final String SECURITY_DATE_OF_CLOSE_OF_INVESTIGATION = "close_investigation_date";
+    public static final String SECURITY_NAME_OF_CRIME_CONVICTED_ON = "crime_name";
+    public static final String SECURITY_NUMBER_OF_REGISTERED_OFFENCES = "num_registerd_offences";
+    public static final String SECURITY_LIST_OF_CRIMES = "list_of_crimes";
+    public static final String SECURITY_DATE_OF_LAST_ARREST = "date_of_arrest";
 //    public static final String SECURITY_WANTED = "wanted";
 //    public static final String SECURITY_CRIME = "crime";
 //    public static final String SECURITY_SP = "sp";
@@ -149,6 +151,7 @@ public class Constants {
 
     // attendance data
     public static final String TABLE_ATTENDANCE = "attendance";
+    public static final String ATTENDANCE_ID = "_id";
     public static final String  ATTENDANCE_REGISTRATION_NUMBER = "registration_number";
     public static final String  ATTENDANCE_PROGRAM = "program";
     public static final String  ATTENDANCE_CATEGORY = "ctergory";
@@ -162,6 +165,7 @@ public class Constants {
 
     // electoin data
     public static final String TABLE_ELECTION = "election";
+    public static final String ELECTION_ID = "_id";
     public static final String  ELECTION_REGISTRATION_NUMBER = "registration_number";
     public static final String  ELECTION_CONTESTANT_NAME = "contestant_name";
     public static final String  ELECTION_POSITION_CONTESTANT_VIED_FOR = "position";

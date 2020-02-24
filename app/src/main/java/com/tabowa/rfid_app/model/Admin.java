@@ -12,6 +12,18 @@ public class Admin {
     private String amountPaid;
     private String purposePayment;
 
+    public Admin(int id, String regNo, String program, String category, String session, String datePayment, String modeOfPayment, String amountPaid, String purposePayment) {
+        this.id = id;
+        this.regNo = regNo;
+        this.program = program;
+        this.category = category;
+        this.session = session;
+        this.datePayment = datePayment;
+        this.modeOfPayment = modeOfPayment;
+        this.amountPaid = amountPaid;
+        this.purposePayment = purposePayment;
+    }
+
     public int getId() {
         return id;
     }

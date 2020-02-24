@@ -57,28 +57,12 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/securityCloseInvestigationDateLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/securityWantedLayout">
-
-            <EditText
-                android:id="@+id/securityCloseInvestigationDateEditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/grade_category"
-                android:inputType="phone"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/securityCrimeNameLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/securityCloseInvestigationDateLayout">
+            app:layout_constraintTop_toBottomOf="@+id/securityWantedLayout">
 
             <EditText
                 android:id="@+id/securityCrimeNameEditText"
@@ -100,9 +84,42 @@
                 android:id="@+id/securityNumRegisterdOffencesEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/security_wanted_list_of_crimes"
+                android:hint="@string/security_wanted_num_registerd_offences"
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/securitydateOfAcquittalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/securityNumRegisterdOffencesLayout">
+
+            <EditText
+                android:id="@+id/securitydateOfAcquittalEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/security_wanted_acquitted"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/securitydateOfCloseInvestigationLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/securitydateOfAcquittalLayout">
+
+            <EditText
+                android:id="@+id/securitydateOfCloseInvestigationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/security_wanted_close_investigation_date"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/securitydateOfArrestLayout"
@@ -110,7 +127,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/securityNumRegisterdOffencesLayout">
+            app:layout_constraintTop_toBottomOf="@+id/securitydateOfCloseInvestigationLayout">
 
             <EditText
                 android:id="@+id/securitydateOfArrestEditText"
@@ -120,6 +137,21 @@
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/securityListOfCrimesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/securitydateOfArrestLayout">
+
+            <EditText
+                android:id="@+id/securityListOfCrimesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/security_wanted_list_of_crimes"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
 
         <Button
@@ -129,7 +161,7 @@
             android:text="@string/create_button"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@+id/cancelButton"
-            app:layout_constraintTop_toBottomOf="@+id/securitydateOfArrestLayout"/>
+            app:layout_constraintTop_toBottomOf="@+id/securityListOfCrimesLayout"/>
 
         <Button
             android:id="@+id/cancelButton"
@@ -138,7 +170,7 @@
             android:text="@string/cancel_button"
             app:layout_constraintLeft_toRightOf="@+id/createButton"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/securitydateOfArrestLayout"/>
+            app:layout_constraintTop_toBottomOf="@+id/securityListOfCrimesLayout"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

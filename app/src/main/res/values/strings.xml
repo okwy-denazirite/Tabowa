@@ -47,8 +47,8 @@
     <string name="medical_condition">Medical Conditions</string>
     <string name="medical_allergy">Allegies</string>
     <string name="medical_history">Medical History</string>
-    <string name="medical_attendant_doctor">Attendant Doctor's Name</string>
-    <string name="medical_attendant_doctor_phone">Attendant Doctor's Phone</string>
+    <string name="medical_attendant_doctor">Attendant Doctor\'s Name</string>
+    <string name="medical_attendant_doctor_phone">Attendant Doctor\'s Phone</string>
 
 
 

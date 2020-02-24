@@ -1,6 +1,7 @@
 package com.tabowa.rfid_app.model;
 
 public class Security {
+    private int id;
     private String wanted;
     private String wantedDate;
     private String acquitted;
@@ -10,7 +11,16 @@ public class Security {
     private String listOfCrimes;
     private String dateOfArrest;
 
-    public Security(String wanted, String wantedDate, String acquitted, String close_investigationDate, String crimeName, String num_registerdOffences, String listOfCrimes, String dateOfArrest) {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Security(int id, String wanted, String wantedDate, String acquitted, String close_investigationDate, String crimeName, String num_registerdOffences, String listOfCrimes, String dateOfArrest) {
+        this.id = id;
         this.wanted = wanted;
         this.wantedDate = wantedDate;
         this.acquitted = acquitted;
